@@ -1,0 +1,59 @@
+{
+  "week": {
+    "number": 5
+  },
+  "events": [
+    {
+      "id": "401872991",
+      "date": "2026-10-11T20:25Z",
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 5
+      },
+      "status": {
+        "clock": 0.0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Sun, October 11th at 4:25 PM EDT",
+          "shortDetail": "10/11 - 4:25 PM EDT"
+        }
+      },
+      "name": "Detroit Lions at Arizona Cardinals",
+      "competitions": [
+        {
+          "competitors": [
+            {
+              "team": {
+                "id": "22",
+                "abbreviation": "ARI"
+              }
+            },
+            {
+              "team": {
+                "id": "8",
+                "abbreviation": "DET"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_fixture_metadata": {
+    "origin": "actual ESPN HTTPS response, fields redacted; not a synthetic sample",
+    "key": "scoreboard:20261011",
+    "capturedAt": "2026-10-11T06:16:10.690612+00:00",
+    "savedInputSHA256": "bb1b010a5d48b2e8578f295dc5e8a693ff302d8745522d617e94faf8a37f76b2",
+    "redactions": "Removed bios, media, links except evidence fields. Limited articles and players; scoreboard retains Arizona event only. Original scalar evidence unchanged."
+  }
+}

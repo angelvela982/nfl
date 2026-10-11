@@ -1,0 +1,159 @@
+{
+  "checkedAt": "2026-10-11T06:20:38.859179+00:00",
+  "scope": "Live internal HTTP requests to the running local service; not a public deployment",
+  "health": {
+    "status": "ok",
+    "checkedAt": "2026-10-11T06:20:36Z",
+    "schedulerRunning": true,
+    "refreshIntervalSeconds": 900,
+    "feeds": {
+      "injuries": {
+        "available": true,
+        "fresh": true,
+        "checkedAt": "2026-10-11T06:20:17Z",
+        "attemptedAt": "2026-10-11T06:20:17Z",
+        "lastRefreshSucceeded": true,
+        "error": null
+      },
+      "news": {
+        "available": true,
+        "fresh": true,
+        "checkedAt": "2026-10-11T06:20:16Z",
+        "attemptedAt": "2026-10-11T06:20:16Z",
+        "lastRefreshSucceeded": true,
+        "error": null
+      },
+      "scoreboard:20261011": {
+        "available": true,
+        "fresh": true,
+        "checkedAt": "2026-10-11T06:20:16Z",
+        "attemptedAt": "2026-10-11T06:20:16Z",
+        "lastRefreshSucceeded": true,
+        "error": null
+      }
+    }
+  },
+  "query": {
+    "player_id": "00-0039849",
+    "espn_id": "4432708",
+    "name": "Marvin Harrison Jr.",
+    "team": "ARI",
+    "game_id": "2026_05_DET_ARI",
+    "kickoff": "2026-10-11T20:25:00+00:00",
+    "season": "2026",
+    "week": "5"
+  },
+  "context": {
+    "fetchedAt": "2026-10-11T06:20:37Z",
+    "reports": [
+      {
+        "id": "espn-injury-641736",
+        "playerID": "00-0039849",
+        "espnID": "4432708",
+        "name": "Marvin Harrison Jr.",
+        "team": "ARI",
+        "status": "out",
+        "detail": "Out. out. Coach's Decision. Other. 2026-10-18. A trade for Harrison will not be completed \"until after Sunday's games are played,\" but the Cardinals \"feel comfortable enough\" knowing it will occur that they will deactivate him for Sunday's game against the Lions, Adam Schefter of ESPN reports.. Harrison's long-term outlook is firmly up in the air after it was announced earlier Saturday that he will be traded to an unspecified team, but per the latest report, \"The one certainty is that Harrison's time in Arizona is done.\" Michael Wilson and Trey McBride figure to remain plenty busy in the passing game, and Harrison's absence will open up some opportunities for Kendrick Bourne and presumably Jalen Brooks.",
+        "reportedAt": "2026-10-10T15:35:00Z",
+        "checkedAt": "2026-10-11T06:20:10Z",
+        "gameID": "2026_05_DET_ARI",
+        "source": "ESPN · reporte de lesiones",
+        "sourceURL": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries"
+      }
+    ],
+    "news": [
+      {
+        "id": "espn-news-50148005",
+        "title": "Sources: Cardinals finalizing deal to trade WR Marvin Harrison Jr.",
+        "summary": "The Cardinals are finalizing a deal to trade Marvin Harrison Jr., sources told ESPN's Adam Schefter and NFL Network's Ian Rapoport.",
+        "url": "https://www.espn.com/nfl/story/_/id/50148005/sources-cardinals-finalizing-deal-trade-wr-marvin-harrison-jr",
+        "publishedAt": "2026-10-11T03:14:16Z",
+        "source": "ESPN",
+        "playerIDs": [
+          "4432708"
+        ],
+        "teams": [
+          "ARI"
+        ]
+      },
+      {
+        "id": "espn-news-50133043",
+        "title": "NFL Week 5 predictions: Upsets, fantasy sleepers, stat lines, TD scorers, more",
+        "summary": "Big performances for Brock Bowers, Travon Walker and Luther Burden III? The Giants pulling an upset? And an under-the-radar RB emerging this week in fantasy?",
+        "url": "https://www.espn.com/nfl/story/_/id/50133043/week-5-predictions-upsets-fantasy-sleepers-stats-2026",
+        "publishedAt": "2026-10-10T10:40:06Z",
+        "source": "ESPN",
+        "playerIDs": [],
+        "teams": [
+          "ARI",
+          "CHI",
+          "CLE",
+          "DEN",
+          "DET",
+          "GB",
+          "JAX",
+          "LV",
+          "MIA",
+          "NYG",
+          "PHI",
+          "PIT"
+        ]
+      },
+      {
+        "id": "espn-news-50142254",
+        "title": "Jeremiyah Love 'trending well' to play despite ankle reinjury",
+        "summary": "Cardinals rookie running back Jeremiyah Love aggravated his ankle injury last week against the Giants. He was limited in practice this week but is trending to play against the Lions.",
+        "url": "https://www.espn.com/nfl/story/_/id/50142254/jeremiyah-love-trending-well-play-ankle-reinjury",
+        "publishedAt": "2026-10-09T19:50:08Z",
+        "source": "ESPN",
+        "playerIDs": [
+          "4870808"
+        ],
+        "teams": [
+          "ARI"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "ESPN · injuries",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
+        "checkedAt": "2026-10-11T06:20:17Z",
+        "modified": null,
+        "rows": 32
+      },
+      {
+        "name": "ESPN · news",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?limit=50",
+        "checkedAt": "2026-10-11T06:20:16Z",
+        "modified": null,
+        "rows": 50
+      },
+      {
+        "name": "ESPN · roster:ARI",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster",
+        "checkedAt": "2026-10-11T06:20:37Z",
+        "modified": null,
+        "rows": 84
+      },
+      {
+        "name": "ESPN · scoreboard:20261011",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261011&limit=100",
+        "checkedAt": "2026-10-11T06:20:16Z",
+        "modified": null,
+        "rows": 13
+      },
+      {
+        "name": "ESPN · summary:401872991",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+        "checkedAt": "2026-10-11T06:20:38Z",
+        "modified": null,
+        "rows": 1
+      }
+    ],
+    "warnings": [
+      "La descarga de summary:401872991 está desactualizada.",
+      "ESPN no garantiza una lista completa de inactivos antes del partido; confirma los anuncios oficiales."
+    ]
+  }
+}

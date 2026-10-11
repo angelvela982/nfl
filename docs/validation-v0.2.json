@@ -1,0 +1,151 @@
+{
+  "checkedAt" : "2026-10-11T06:19:58Z",
+  "players" : 986,
+  "projectionMetricsExercised" : 11,
+  "scope" : "Executed Swift core, published retrospective files; conditional on observed stat rows. Does not evaluate iPhone UI, news, injuries as-of, or forecast weather accuracy.",
+  "season" : 2026,
+  "sources" : [
+    {
+      "checkedAt" : "2026-10-11T06:19:59Z",
+      "name" : "Calendario · nflverse",
+      "rows" : 7548,
+      "url" : "https:\/\/raw.githubusercontent.com\/nflverse\/nfldata\/master\/data\/games.csv"
+    },
+    {
+      "checkedAt" : "2026-10-11T06:20:03Z",
+      "modified" : "Thu, 13 Aug 2026 16:51:22 GMT",
+      "name" : "Estadísticas 2025 · nflverse",
+      "rows" : 19422,
+      "url" : "https:\/\/github.com\/nflverse\/nflverse-data\/releases\/download\/stats_player\/stats_player_week_2025.csv"
+    },
+    {
+      "checkedAt" : "2026-10-11T06:20:04Z",
+      "modified" : "Sat, 10 Oct 2026 15:19:08 GMT",
+      "name" : "Estadísticas 2026 · nflverse",
+      "rows" : 4517,
+      "url" : "https:\/\/github.com\/nflverse\/nflverse-data\/releases\/download\/stats_player\/stats_player_week_2026.csv"
+    },
+    {
+      "checkedAt" : "2026-10-11T06:20:05Z",
+      "modified" : "Sun, 11 Oct 2026 06:02:54 GMT",
+      "name" : "Plantilla 2026 · nflverse",
+      "rows" : 3033,
+      "url" : "https:\/\/github.com\/nflverse\/nflverse-data\/releases\/download\/rosters\/roster_2026.csv"
+    },
+    {
+      "checkedAt" : "2026-10-11T06:20:05Z",
+      "modified" : "Sun, 11 Oct 2026 06:01:13 GMT",
+      "name" : "Lesiones 2026 · nflverse",
+      "rows" : 1413,
+      "url" : "https:\/\/github.com\/nflverse\/nflverse-data\/releases\/download\/injuries\/injuries_2026.csv"
+    }
+  ],
+  "statRows" : 8570,
+  "validation" : [
+    {
+      "bias" : 6.90695099704977,
+      "count" : 400,
+      "intervalCount" : 261,
+      "last5MAE" : 68.90987500000003,
+      "mae" : 67.53209818660363,
+      "metric" : "passing_yards",
+      "observedCoverage" : 0.6360153256704981
+    },
+    {
+      "bias" : 3.124108549419952,
+      "count" : 400,
+      "intervalCount" : 360,
+      "last5MAE" : 19.757875000000006,
+      "mae" : 19.453017827883745,
+      "metric" : "rushing_yards",
+      "observedCoverage" : 0.6833333333333333
+    },
+    {
+      "bias" : -3.187167686746311,
+      "count" : 400,
+      "intervalCount" : 366,
+      "last5MAE" : 22.900875,
+      "mae" : 22.541219567574277,
+      "metric" : "receiving_yards",
+      "observedCoverage" : 0.6693989071038251
+    },
+    {
+      "bias" : -0.2189352343484984,
+      "count" : 400,
+      "intervalCount" : 366,
+      "last5MAE" : 1.639375000000001,
+      "mae" : 1.622082982127597,
+      "metric" : "receptions",
+      "observedCoverage" : 0.860655737704918
+    },
+    {
+      "bias" : 0.3755021380323212,
+      "count" : 400,
+      "intervalCount" : 360,
+      "last5MAE" : 3.422749999999996,
+      "mae" : 3.395366487630729,
+      "metric" : "carries",
+      "observedCoverage" : 0.775
+    },
+    {
+      "bias" : 0.6670463714347362,
+      "count" : 400,
+      "intervalCount" : 261,
+      "last5MAE" : 8.117500000000003,
+      "mae" : 7.8738975887208476,
+      "metric" : "attempts",
+      "observedCoverage" : 0.6973180076628352
+    },
+    {
+      "bias" : 0.6363888145756481,
+      "count" : 400,
+      "intervalCount" : 261,
+      "last5MAE" : 5.605624999999996,
+      "mae" : 5.438716005502132,
+      "metric" : "completions",
+      "observedCoverage" : 0.7432950191570882
+    },
+    {
+      "bias" : -0.21373970027365932,
+      "count" : 400,
+      "intervalCount" : 366,
+      "last5MAE" : 2.056749999999999,
+      "mae" : 2.0244382502645215,
+      "metric" : "targets",
+      "observedCoverage" : 0.8497267759562842
+    },
+    {
+      "bias" : 0.013002132032818326,
+      "count" : 400,
+      "intervalCount" : 288,
+      "last5MAE" : 1.09825,
+      "mae" : 1.0974118342321504,
+      "metric" : "fg_made",
+      "observedCoverage" : 0.8784722222222222
+    },
+    {
+      "bias" : 0.0019096078154472085,
+      "count" : 400,
+      "intervalCount" : 288,
+      "last5MAE" : 1.1833749999999987,
+      "mae" : 1.1665381404882915,
+      "metric" : "fg_att",
+      "observedCoverage" : 0.8888888888888888
+    },
+    {
+      "bias" : 0.07730330999221745,
+      "count" : 400,
+      "intervalCount" : 288,
+      "last5MAE" : 1.2062499999999996,
+      "mae" : 1.191156983621635,
+      "metric" : "pat_made",
+      "observedCoverage" : 0.8923611111111112
+    }
+  ],
+  "version" : "0.2.0",
+  "warnings" : [
+    "Calendario: se rechazaron 259 filas incompletas o inválidas; esos partidos no se usan.",
+    "Plantilla: se rechazaron 1 filas sin identidad válida.",
+    "Plantilla: 127 jugadores sin identificador ESPN; su contexto automático requiere una fuente con identidad verificable."
+  ]
+}

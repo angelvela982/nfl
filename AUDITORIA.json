@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "executedSwiftAudit": "docs/validation-v0.2.json",
+  "sourceAudit": "docs/source-audit-v0.2.json",
+  "liveContextAudit": "docs/context-audit-v0.2.json",
+  "liveServerSmoke": "docs/server-smoke-v0.2.json",
+  "originalBetaAudit": "docs/archive/AUDITORIA-v0.1.json",
+  "scope": "Index to versioned evidence; v0.1 results are archived and not reused as v0.2 accuracy claims."
+}

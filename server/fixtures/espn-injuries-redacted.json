@@ -1,0 +1,259 @@
+{
+  "timestamp": "2026-10-11T06:13:51Z",
+  "status": "success",
+  "season": {
+    "year": 2026,
+    "type": 2,
+    "name": "Regular Season",
+    "displayName": "2026"
+  },
+  "injuries": [
+    {
+      "id": "22",
+      "displayName": "Arizona Cardinals",
+      "injuries": [
+        {
+          "id": "641819",
+          "date": "2026-10-11T03:58Z",
+          "status": "Injured Reserve",
+          "type": {
+            "id": "5",
+            "name": "INJURY_STATUS_IR",
+            "description": "Injured Reserve",
+            "abbreviation": "IR"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "IR",
+              "abbreviation": "IR"
+            },
+            "type": "Ankle",
+            "location": "Leg",
+            "detail": "Not Specified",
+            "side": "Not Specified",
+            "returnDate": "2026-11-08"
+          },
+          "athlete": {
+            "firstName": "Isaiah",
+            "lastName": "Adams",
+            "displayName": "Isaiah Adams",
+            "shortName": "I. Adams",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/_/id/5084939/isaiah-adams"
+              }
+            ],
+            "position": {
+              "id": "73",
+              "name": "Guard",
+              "abbreviation": "G"
+            },
+            "team": {
+              "id": "22",
+              "abbreviation": "ARI",
+              "displayName": "Arizona Cardinals"
+            },
+            "status": {
+              "id": "13",
+              "name": "Day-To-Day",
+              "type": "day-to-day",
+              "abbreviation": "Day-To-Day"
+            }
+          }
+        },
+        {
+          "id": "641736",
+          "date": "2026-10-10T15:35Z",
+          "status": "Out",
+          "type": {
+            "id": "4",
+            "name": "INJURY_STATUS_OUT",
+            "description": "out",
+            "abbreviation": "O"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "OUT",
+              "abbreviation": "OUT"
+            },
+            "type": "Coach's Decision",
+            "location": "Other",
+            "returnDate": "2026-10-18"
+          },
+          "athlete": {
+            "firstName": "Marvin",
+            "lastName": "Harrison Jr.",
+            "displayName": "Marvin Harrison Jr.",
+            "shortName": "M. Harrison Jr.",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/_/id/4432708/marvin-harrison-jr"
+              }
+            ],
+            "position": {
+              "id": "1",
+              "name": "Wide Receiver",
+              "abbreviation": "WR"
+            },
+            "team": {
+              "id": "22",
+              "abbreviation": "ARI",
+              "displayName": "Arizona Cardinals"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          }
+        },
+        {
+          "id": "641678",
+          "date": "2026-10-10T01:19Z",
+          "status": "Questionable",
+          "type": {
+            "id": "2",
+            "name": "INJURY_STATUS_QUESTIONABLE",
+            "description": "questionable",
+            "abbreviation": "Q"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "QUESTIONABLE",
+              "abbreviation": "QUESTIONABLE"
+            },
+            "type": "Calf",
+            "location": "Leg",
+            "detail": "Not Specified",
+            "side": "Not Specified",
+            "returnDate": "2026-10-11"
+          },
+          "athlete": {
+            "firstName": "Walter",
+            "lastName": "Nolen III",
+            "displayName": "Walter Nolen III",
+            "shortName": "W. Nolen III",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/_/id/4685503/walter-nolen-iii"
+              }
+            ],
+            "position": {
+              "id": "32",
+              "name": "Defensive Tackle",
+              "abbreviation": "DT"
+            },
+            "team": {
+              "id": "22",
+              "abbreviation": "ARI",
+              "displayName": "Arizona Cardinals"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "displayName": "Green Bay Packers",
+      "injuries": [
+        {
+          "id": "641714",
+          "date": "2026-10-10T02:27Z",
+          "status": "Doubtful",
+          "type": {
+            "id": "3",
+            "name": "INJURY_STATUS_DOUBTFUL",
+            "description": "doubtful",
+            "abbreviation": "D"
+          },
+          "details": {
+            "fantasyStatus": {
+              "description": "DOUBTFUL",
+              "abbreviation": "DOUBTFUL"
+            },
+            "type": "Quadriceps",
+            "location": "Leg",
+            "detail": "Not Specified",
+            "side": "Not Specified",
+            "returnDate": "2026-10-11"
+          },
+          "athlete": {
+            "firstName": "Jacob",
+            "lastName": "Monk",
+            "displayName": "Jacob Monk",
+            "shortName": "J. Monk",
+            "links": [
+              {
+                "rel": [
+                  "playercard",
+                  "desktop",
+                  "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/_/id/4428037/jacob-monk"
+              }
+            ],
+            "position": {
+              "id": "4",
+              "name": "Center",
+              "abbreviation": "C"
+            },
+            "team": {
+              "id": "9",
+              "abbreviation": "GB",
+              "displayName": "Green Bay Packers"
+            },
+            "status": {
+              "id": "1",
+              "name": "Active",
+              "type": "active",
+              "abbreviation": "Active"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "_fixture_metadata": {
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
+    "checked_at_utc": "2026-10-11T06:13:51+00:00",
+    "original_sha256": "cf6ba9fea47723efde47b06194e6465d69ae980716a0e40975412d7c5404719f",
+    "purpose": "Selected real NFL records, fields omitted for parser fixtures; not a complete availability snapshot.",
+    "removed_fields": [
+      "all unselected team groups and injuries",
+      "longComment",
+      "shortComment",
+      "source",
+      "athlete.headshot",
+      "athlete.notes",
+      "athlete.team fields other than id/abbreviation/displayName",
+      "athlete.position fields other than id/abbreviation/name",
+      "athlete.status fields other than id/type/name/abbreviation",
+      "athlete.links except first playercard link rel/href"
+    ],
+    "selected_report_count": 4,
+    "unrepresented_requested_statuses": [],
+    "athlete_id_warning": "Original injury athlete objects have no id. Injury-level id identifies report, not athlete."
+  }
+}

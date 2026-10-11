@@ -1,0 +1,22 @@
+name: Validate NFL Pulse
+on:
+  push:
+  pull_request:
+jobs:
+  core-and-iphone:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test Swift core (network checks opt in separately)
+        run: swift test --jobs 4
+      - name: Build iPhone simulator application
+        run: >-
+          xcodebuild -project NFLPulse.xcodeproj -scheme NFLPulse
+          -sdk iphonesimulator -destination 'generic/platform=iOS Simulator'
+          -configuration Debug CODE_SIGNING_ALLOWED=NO build
+  continuous-service:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test cache, sources, scheduling and HTTP contract
+        run: python3 -m unittest discover -s server/tests -v

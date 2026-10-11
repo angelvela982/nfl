@@ -1,0 +1,2230 @@
+{
+  "audit_version": "0.2",
+  "generated_at_utc": "2026-10-11T06:16:40.501897+00:00",
+  "scope": "New live read-only source/schema audit. Not execution of iOS/Swift, not model accuracy validation, not a republication of legacy AUDITORIA.json metrics. CSV records use the exact observed response bytes and default TLS verification. ESPN documentation examples are third-party references; current live response evidence takes precedence.",
+  "consultation_started_at_utc": "2026-10-11T06:11:28.967190+00:00",
+  "sources": [
+    {
+      "source": "games",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+      "checked_at_utc": "2026-10-11T06:11:28.967190+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+      "last_modified": null,
+      "content_type": "text/plain; charset=utf-8",
+      "response_bytes": 2184005,
+      "sha256": "0d548cefb800bfee5679f35e09431c59a370b989be043b8191163330e315de80",
+      "finished_at_utc": "2026-10-11T06:11:29.579406+00:00",
+      "columns": [
+        "game_id",
+        "season",
+        "game_type",
+        "week",
+        "gameday",
+        "weekday",
+        "gametime",
+        "away_team",
+        "away_score",
+        "home_team",
+        "home_score",
+        "location",
+        "result",
+        "total",
+        "overtime",
+        "old_game_id",
+        "gsis",
+        "nfl_detail_id",
+        "pfr",
+        "pff",
+        "espn",
+        "ftn",
+        "away_rest",
+        "home_rest",
+        "away_moneyline",
+        "home_moneyline",
+        "spread_line",
+        "away_spread_odds",
+        "home_spread_odds",
+        "total_line",
+        "under_odds",
+        "over_odds",
+        "div_game",
+        "roof",
+        "surface",
+        "temp",
+        "wind",
+        "away_qb_id",
+        "home_qb_id",
+        "away_qb_name",
+        "home_qb_name",
+        "away_coach",
+        "home_coach",
+        "referee",
+        "stadium_id",
+        "stadium"
+      ],
+      "row_count": 7548,
+      "season": {
+        "min": 1999,
+        "max": 2026,
+        "present_integer_count": 7548
+      },
+      "week": {
+        "min": 1,
+        "max": 22,
+        "present_integer_count": 7548
+      },
+      "rows_by_season": {
+        "1999": 259,
+        "2000": 259,
+        "2001": 259,
+        "2002": 267,
+        "2003": 267,
+        "2004": 267,
+        "2005": 267,
+        "2006": 267,
+        "2007": 267,
+        "2008": 267,
+        "2009": 267,
+        "2010": 267,
+        "2011": 267,
+        "2012": 267,
+        "2013": 267,
+        "2014": 267,
+        "2015": 267,
+        "2016": 267,
+        "2017": 267,
+        "2018": 267,
+        "2019": 267,
+        "2020": 269,
+        "2021": 285,
+        "2022": 284,
+        "2023": 285,
+        "2024": 285,
+        "2025": 285,
+        "2026": 272
+      },
+      "rows_by_week": {
+        "1": 444,
+        "10": 398,
+        "11": 414,
+        "12": 433,
+        "13": 435,
+        "14": 433,
+        "15": 445,
+        "16": 445,
+        "17": 444,
+        "18": 186,
+        "19": 118,
+        "2": 443,
+        "20": 64,
+        "21": 32,
+        "22": 5,
+        "3": 432,
+        "4": 414,
+        "5": 399,
+        "6": 394,
+        "7": 392,
+        "8": 392,
+        "9": 386
+      },
+      "missing_required_columns": [],
+      "games_by_season": {
+        "2025": {
+          "rows": 285,
+          "completed": 285,
+          "last_gameday": "2026-02-08"
+        },
+        "2026": {
+          "rows": 272,
+          "completed": 65,
+          "last_gameday": "2027-01-10"
+        }
+      }
+    },
+    {
+      "source": "stats2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2025.csv",
+      "checked_at_utc": "2026-10-11T06:11:28.967953+00:00",
+      "http_status": 200,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/452908115/5face9df-1a56-48f5-99e7-ed023856802d",
+      "last_modified": "Thu, 13 Aug 2026 16:51:22 GMT",
+      "content_type": "application/octet-stream",
+      "response_bytes": 8656387,
+      "sha256": "e5e0615b3d96a3eaebfaee91e55afb4a4e7fe0caf057454177bcd7d6ad4bcfc2",
+      "finished_at_utc": "2026-10-11T06:11:30.015865+00:00",
+      "columns": [
+        "player_id",
+        "player_name",
+        "player_display_name",
+        "position",
+        "position_group",
+        "headshot_url",
+        "season",
+        "week",
+        "season_type",
+        "game_id",
+        "team",
+        "opponent_team",
+        "completions",
+        "attempts",
+        "passing_yards",
+        "passing_tds",
+        "passing_interceptions",
+        "sacks_suffered",
+        "sack_yards_lost",
+        "sack_fumbles",
+        "sack_fumbles_lost",
+        "passing_air_yards",
+        "passing_yards_after_catch",
+        "passing_first_downs",
+        "passing_epa",
+        "passing_cpoe",
+        "passing_2pt_conversions",
+        "pacr",
+        "passing_10",
+        "passing_16",
+        "passing_20",
+        "passing_40",
+        "carries",
+        "rushing_yards",
+        "rushing_tds",
+        "rushing_fumbles",
+        "rushing_fumbles_lost",
+        "rushing_first_downs",
+        "rushing_epa",
+        "rushing_2pt_conversions",
+        "rushing_10",
+        "rushing_12",
+        "rushing_20",
+        "rushing_40",
+        "receptions",
+        "targets",
+        "receiving_yards",
+        "receiving_tds",
+        "receiving_fumbles",
+        "receiving_fumbles_lost",
+        "receiving_air_yards",
+        "receiving_yards_after_catch",
+        "receiving_first_downs",
+        "receiving_epa",
+        "receiving_2pt_conversions",
+        "receiving_10",
+        "receiving_16",
+        "receiving_20",
+        "receiving_40",
+        "racr",
+        "target_share",
+        "air_yards_share",
+        "wopr",
+        "special_teams_tds",
+        "def_tackles_solo",
+        "def_tackles_with_assist",
+        "def_tackle_assists",
+        "def_tackles_for_loss",
+        "def_tackles_for_loss_yards",
+        "def_fumbles_forced",
+        "def_sacks",
+        "def_sack_yards",
+        "def_qb_hits",
+        "def_interceptions",
+        "def_interception_yards",
+        "def_pass_defended",
+        "def_tds",
+        "def_fumbles",
+        "def_safeties",
+        "def_punt_blocks",
+        "def_pat_blocks",
+        "def_fg_blocks",
+        "def_2pt_atts",
+        "def_2pt_made",
+        "misc_yards",
+        "fumble_recovery_own",
+        "fumble_recovery_yards_own",
+        "fumble_recovery_opp",
+        "fumble_recovery_yards_opp",
+        "fumble_recovery_tds",
+        "penalties",
+        "penalty_yards",
+        "fumbles_forced_by_opp",
+        "fumbles_not_forced",
+        "fumbles_out_of_bounds",
+        "fumbles_total",
+        "fumbles_lost_total",
+        "punt_returns",
+        "punt_return_yards",
+        "kickoff_returns",
+        "kickoff_return_yards",
+        "fg_made",
+        "fg_att",
+        "fg_missed",
+        "fg_blocked",
+        "fg_long",
+        "fg_pct",
+        "fg_made_0_19",
+        "fg_made_20_29",
+        "fg_made_30_39",
+        "fg_made_40_49",
+        "fg_made_50_59",
+        "fg_made_60_",
+        "fg_missed_0_19",
+        "fg_missed_20_29",
+        "fg_missed_30_39",
+        "fg_missed_40_49",
+        "fg_missed_50_59",
+        "fg_missed_60_",
+        "fg_made_list",
+        "fg_missed_list",
+        "fg_blocked_list",
+        "fg_made_distance",
+        "fg_missed_distance",
+        "fg_blocked_distance",
+        "pat_made",
+        "pat_att",
+        "pat_missed",
+        "pat_blocked",
+        "pat_pct",
+        "gwfg_made",
+        "gwfg_att",
+        "gwfg_missed",
+        "gwfg_blocked",
+        "gwfg_distance",
+        "pt_att",
+        "pt_blocked",
+        "pt_long",
+        "pt_yards",
+        "pt_inside_20",
+        "pt_out_of_bounds",
+        "pt_downed",
+        "pt_touchback",
+        "pt_fair_caught",
+        "pt_returned",
+        "pt_return_yards",
+        "pt_return_tds",
+        "pt_net_yards",
+        "fantasy_points",
+        "fantasy_points_ppr"
+      ],
+      "row_count": 19422,
+      "season": {
+        "min": 2025,
+        "max": 2025,
+        "present_integer_count": 19422
+      },
+      "week": {
+        "min": 1,
+        "max": 22,
+        "present_integer_count": 19422
+      },
+      "rows_by_season": {
+        "2025": 19422
+      },
+      "rows_by_week": {
+        "1": 1072,
+        "10": 963,
+        "11": 1032,
+        "12": 967,
+        "13": 1081,
+        "14": 974,
+        "15": 1055,
+        "16": 1098,
+        "17": 1063,
+        "18": 1067,
+        "19": 398,
+        "2": 1108,
+        "20": 280,
+        "21": 137,
+        "22": 67,
+        "3": 1103,
+        "4": 1107,
+        "5": 961,
+        "6": 1014,
+        "7": 1035,
+        "8": 892,
+        "9": 948
+      },
+      "missing_required_columns": []
+    },
+    {
+      "source": "stats2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+      "checked_at_utc": "2026-10-11T06:11:28.968792+00:00",
+      "http_status": 200,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/452908115/3581aad6-9c80-428a-bb6c-bdcca738658f",
+      "last_modified": "Sat, 10 Oct 2026 15:19:08 GMT",
+      "content_type": "application/octet-stream",
+      "response_bytes": 2012053,
+      "sha256": "bda143a5f21ce606cf62cbf1f2ba832392e9f2cde73a8f733d4bc5d04f1598ff",
+      "finished_at_utc": "2026-10-11T06:11:29.682391+00:00",
+      "columns": [
+        "player_id",
+        "player_name",
+        "player_display_name",
+        "position",
+        "position_group",
+        "headshot_url",
+        "season",
+        "week",
+        "season_type",
+        "game_id",
+        "team",
+        "opponent_team",
+        "completions",
+        "attempts",
+        "passing_yards",
+        "passing_tds",
+        "passing_interceptions",
+        "sacks_suffered",
+        "sack_yards_lost",
+        "sack_fumbles",
+        "sack_fumbles_lost",
+        "passing_air_yards",
+        "passing_yards_after_catch",
+        "passing_first_downs",
+        "passing_epa",
+        "passing_cpoe",
+        "passing_2pt_conversions",
+        "pacr",
+        "passing_10",
+        "passing_16",
+        "passing_20",
+        "passing_40",
+        "carries",
+        "rushing_yards",
+        "rushing_tds",
+        "rushing_fumbles",
+        "rushing_fumbles_lost",
+        "rushing_first_downs",
+        "rushing_epa",
+        "rushing_2pt_conversions",
+        "rushing_10",
+        "rushing_12",
+        "rushing_20",
+        "rushing_40",
+        "receptions",
+        "targets",
+        "receiving_yards",
+        "receiving_tds",
+        "receiving_fumbles",
+        "receiving_fumbles_lost",
+        "receiving_air_yards",
+        "receiving_yards_after_catch",
+        "receiving_first_downs",
+        "receiving_epa",
+        "receiving_2pt_conversions",
+        "receiving_10",
+        "receiving_16",
+        "receiving_20",
+        "receiving_40",
+        "racr",
+        "target_share",
+        "air_yards_share",
+        "wopr",
+        "special_teams_tds",
+        "def_tackles_solo",
+        "def_tackles_with_assist",
+        "def_tackle_assists",
+        "def_tackles_for_loss",
+        "def_tackles_for_loss_yards",
+        "def_fumbles_forced",
+        "def_sacks",
+        "def_sack_yards",
+        "def_qb_hits",
+        "def_interceptions",
+        "def_interception_yards",
+        "def_pass_defended",
+        "def_tds",
+        "def_fumbles",
+        "def_safeties",
+        "def_punt_blocks",
+        "def_pat_blocks",
+        "def_fg_blocks",
+        "def_2pt_atts",
+        "def_2pt_made",
+        "misc_yards",
+        "fumble_recovery_own",
+        "fumble_recovery_yards_own",
+        "fumble_recovery_opp",
+        "fumble_recovery_yards_opp",
+        "fumble_recovery_tds",
+        "penalties",
+        "penalty_yards",
+        "fumbles_forced_by_opp",
+        "fumbles_not_forced",
+        "fumbles_out_of_bounds",
+        "fumbles_total",
+        "fumbles_lost_total",
+        "punt_returns",
+        "punt_return_yards",
+        "kickoff_returns",
+        "kickoff_return_yards",
+        "fg_made",
+        "fg_att",
+        "fg_missed",
+        "fg_blocked",
+        "fg_long",
+        "fg_pct",
+        "fg_made_0_19",
+        "fg_made_20_29",
+        "fg_made_30_39",
+        "fg_made_40_49",
+        "fg_made_50_59",
+        "fg_made_60_",
+        "fg_missed_0_19",
+        "fg_missed_20_29",
+        "fg_missed_30_39",
+        "fg_missed_40_49",
+        "fg_missed_50_59",
+        "fg_missed_60_",
+        "fg_made_list",
+        "fg_missed_list",
+        "fg_blocked_list",
+        "fg_made_distance",
+        "fg_missed_distance",
+        "fg_blocked_distance",
+        "pat_made",
+        "pat_att",
+        "pat_missed",
+        "pat_blocked",
+        "pat_pct",
+        "gwfg_made",
+        "gwfg_att",
+        "gwfg_missed",
+        "gwfg_blocked",
+        "gwfg_distance",
+        "pt_att",
+        "pt_blocked",
+        "pt_long",
+        "pt_yards",
+        "pt_inside_20",
+        "pt_out_of_bounds",
+        "pt_downed",
+        "pt_touchback",
+        "pt_fair_caught",
+        "pt_returned",
+        "pt_return_yards",
+        "pt_return_tds",
+        "pt_net_yards",
+        "fantasy_points",
+        "fantasy_points_ppr"
+      ],
+      "row_count": 4517,
+      "season": {
+        "min": 2026,
+        "max": 2026,
+        "present_integer_count": 4517
+      },
+      "week": {
+        "min": 1,
+        "max": 5,
+        "present_integer_count": 4517
+      },
+      "rows_by_season": {
+        "2026": 4517
+      },
+      "rows_by_week": {
+        "1": 1118,
+        "2": 1107,
+        "3": 1114,
+        "4": 1110,
+        "5": 68
+      },
+      "missing_required_columns": []
+    },
+    {
+      "source": "roster2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "checked_at_utc": "2026-10-11T06:11:28.969251+00:00",
+      "http_status": 200,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/452908115/fb710ac4-06df-45d2-a983-d60910f6f3e3",
+      "last_modified": "Sun, 11 Oct 2026 06:02:54 GMT",
+      "content_type": "application/octet-stream",
+      "response_bytes": 966179,
+      "sha256": "d9683cbcbcd5b0be0e8c23171088d8f7332d6f317df777af33081de61512967c",
+      "finished_at_utc": "2026-10-11T06:11:29.486316+00:00",
+      "columns": [
+        "season",
+        "team",
+        "position",
+        "depth_chart_position",
+        "jersey_number",
+        "status",
+        "full_name",
+        "first_name",
+        "last_name",
+        "birth_date",
+        "height",
+        "weight",
+        "college",
+        "gsis_id",
+        "espn_id",
+        "sportradar_id",
+        "yahoo_id",
+        "rotowire_id",
+        "pff_id",
+        "pfr_id",
+        "fantasy_data_id",
+        "sleeper_id",
+        "years_exp",
+        "headshot_url",
+        "ngs_position",
+        "week",
+        "game_type",
+        "status_description_abbr",
+        "football_name",
+        "esb_id",
+        "gsis_it_id",
+        "smart_id",
+        "entry_year",
+        "rookie_year",
+        "draft_club",
+        "draft_number"
+      ],
+      "row_count": 3033,
+      "season": {
+        "min": 2026,
+        "max": 2026,
+        "present_integer_count": 3033
+      },
+      "week": {
+        "min": 1,
+        "max": 5,
+        "present_integer_count": 3033
+      },
+      "rows_by_season": {
+        "2026": 3033
+      },
+      "rows_by_week": {
+        "1": 395,
+        "2": 11,
+        "3": 13,
+        "4": 178,
+        "5": 2436
+      },
+      "missing_required_columns": []
+    },
+    {
+      "source": "injuries2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+      "checked_at_utc": "2026-10-11T06:11:28.970076+00:00",
+      "http_status": 200,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/452908115/30fe7d0f-d73b-4fa1-a046-90c2d9f254c2",
+      "last_modified": "Sun, 11 Oct 2026 06:01:13 GMT",
+      "content_type": "application/octet-stream",
+      "response_bytes": 161497,
+      "sha256": "8dd06b0e55128af411713591a14c22d3fe7135dbdfab0731c597ea1cf16037f4",
+      "finished_at_utc": "2026-10-11T06:11:29.465350+00:00",
+      "columns": [
+        "season",
+        "season_type",
+        "game_type",
+        "team",
+        "week",
+        "gsis_id",
+        "position",
+        "full_name",
+        "first_name",
+        "last_name",
+        "report_primary_injury",
+        "report_secondary_injury",
+        "report_status",
+        "practice_primary_injury",
+        "practice_secondary_injury",
+        "practice_status"
+      ],
+      "row_count": 1413,
+      "season": {
+        "min": 2026,
+        "max": 2026,
+        "present_integer_count": 1413
+      },
+      "week": {
+        "min": 1,
+        "max": 5,
+        "present_integer_count": 1413
+      },
+      "rows_by_season": {
+        "2026": 1413
+      },
+      "rows_by_week": {
+        "1": 182,
+        "2": 251,
+        "3": 301,
+        "4": 318,
+        "5": 361
+      },
+      "missing_required_columns": []
+    },
+    {
+      "source": "roster2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2025.csv",
+      "checked_at_utc": "2026-10-11T06:11:28.975145+00:00",
+      "http_status": 200,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/452908115/8d67cb17-8fc9-4f34-983e-51bf09d13e9c",
+      "last_modified": "Sat, 14 Mar 2026 07:33:08 GMT",
+      "content_type": "application/octet-stream",
+      "response_bytes": 1010039,
+      "sha256": "531ee5de386037bb17de3e3e3d50f7b4ed08789526bbaae9876fdd3dfb4d04ad",
+      "finished_at_utc": "2026-10-11T06:11:29.649960+00:00",
+      "columns": [
+        "season",
+        "team",
+        "position",
+        "depth_chart_position",
+        "jersey_number",
+        "status",
+        "full_name",
+        "first_name",
+        "last_name",
+        "birth_date",
+        "height",
+        "weight",
+        "college",
+        "gsis_id",
+        "espn_id",
+        "sportradar_id",
+        "yahoo_id",
+        "rotowire_id",
+        "pff_id",
+        "pfr_id",
+        "fantasy_data_id",
+        "sleeper_id",
+        "years_exp",
+        "headshot_url",
+        "ngs_position",
+        "week",
+        "game_type",
+        "status_description_abbr",
+        "football_name",
+        "esb_id",
+        "gsis_it_id",
+        "smart_id",
+        "entry_year",
+        "rookie_year",
+        "draft_club",
+        "draft_number"
+      ],
+      "row_count": 3137,
+      "season": {
+        "min": 2025,
+        "max": 2025,
+        "present_integer_count": 3137
+      },
+      "week": {
+        "min": 1,
+        "max": 22,
+        "present_integer_count": 3137
+      },
+      "rows_by_season": {
+        "2025": 3137
+      },
+      "rows_by_week": {
+        "1": 331,
+        "10": 7,
+        "11": 6,
+        "12": 8,
+        "13": 5,
+        "14": 10,
+        "15": 7,
+        "16": 9,
+        "17": 3,
+        "18": 1522,
+        "19": 498,
+        "2": 9,
+        "20": 346,
+        "21": 160,
+        "22": 165,
+        "3": 9,
+        "4": 6,
+        "5": 6,
+        "6": 9,
+        "7": 8,
+        "8": 8,
+        "9": 5
+      },
+      "missing_required_columns": []
+    },
+    {
+      "source": "stats2024",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2024.csv",
+      "checked_at_utc": "2026-10-11T06:11:28.977886+00:00",
+      "http_status": 200,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/452908115/ce41a872-383e-4816-b610-dd20c332fb7f",
+      "last_modified": "Thu, 13 Aug 2026 16:49:11 GMT",
+      "content_type": "application/octet-stream",
+      "response_bytes": 8470040,
+      "sha256": "3ddc45a84f759aa348ce465ae001752c530575455717657cdfe1f8abfcdb4759",
+      "finished_at_utc": "2026-10-11T06:11:29.874273+00:00",
+      "columns": [
+        "player_id",
+        "player_name",
+        "player_display_name",
+        "position",
+        "position_group",
+        "headshot_url",
+        "season",
+        "week",
+        "season_type",
+        "game_id",
+        "team",
+        "opponent_team",
+        "completions",
+        "attempts",
+        "passing_yards",
+        "passing_tds",
+        "passing_interceptions",
+        "sacks_suffered",
+        "sack_yards_lost",
+        "sack_fumbles",
+        "sack_fumbles_lost",
+        "passing_air_yards",
+        "passing_yards_after_catch",
+        "passing_first_downs",
+        "passing_epa",
+        "passing_cpoe",
+        "passing_2pt_conversions",
+        "pacr",
+        "passing_10",
+        "passing_16",
+        "passing_20",
+        "passing_40",
+        "carries",
+        "rushing_yards",
+        "rushing_tds",
+        "rushing_fumbles",
+        "rushing_fumbles_lost",
+        "rushing_first_downs",
+        "rushing_epa",
+        "rushing_2pt_conversions",
+        "rushing_10",
+        "rushing_12",
+        "rushing_20",
+        "rushing_40",
+        "receptions",
+        "targets",
+        "receiving_yards",
+        "receiving_tds",
+        "receiving_fumbles",
+        "receiving_fumbles_lost",
+        "receiving_air_yards",
+        "receiving_yards_after_catch",
+        "receiving_first_downs",
+        "receiving_epa",
+        "receiving_2pt_conversions",
+        "receiving_10",
+        "receiving_16",
+        "receiving_20",
+        "receiving_40",
+        "racr",
+        "target_share",
+        "air_yards_share",
+        "wopr",
+        "special_teams_tds",
+        "def_tackles_solo",
+        "def_tackles_with_assist",
+        "def_tackle_assists",
+        "def_tackles_for_loss",
+        "def_tackles_for_loss_yards",
+        "def_fumbles_forced",
+        "def_sacks",
+        "def_sack_yards",
+        "def_qb_hits",
+        "def_interceptions",
+        "def_interception_yards",
+        "def_pass_defended",
+        "def_tds",
+        "def_fumbles",
+        "def_safeties",
+        "def_punt_blocks",
+        "def_pat_blocks",
+        "def_fg_blocks",
+        "def_2pt_atts",
+        "def_2pt_made",
+        "misc_yards",
+        "fumble_recovery_own",
+        "fumble_recovery_yards_own",
+        "fumble_recovery_opp",
+        "fumble_recovery_yards_opp",
+        "fumble_recovery_tds",
+        "penalties",
+        "penalty_yards",
+        "fumbles_forced_by_opp",
+        "fumbles_not_forced",
+        "fumbles_out_of_bounds",
+        "fumbles_total",
+        "fumbles_lost_total",
+        "punt_returns",
+        "punt_return_yards",
+        "kickoff_returns",
+        "kickoff_return_yards",
+        "fg_made",
+        "fg_att",
+        "fg_missed",
+        "fg_blocked",
+        "fg_long",
+        "fg_pct",
+        "fg_made_0_19",
+        "fg_made_20_29",
+        "fg_made_30_39",
+        "fg_made_40_49",
+        "fg_made_50_59",
+        "fg_made_60_",
+        "fg_missed_0_19",
+        "fg_missed_20_29",
+        "fg_missed_30_39",
+        "fg_missed_40_49",
+        "fg_missed_50_59",
+        "fg_missed_60_",
+        "fg_made_list",
+        "fg_missed_list",
+        "fg_blocked_list",
+        "fg_made_distance",
+        "fg_missed_distance",
+        "fg_blocked_distance",
+        "pat_made",
+        "pat_att",
+        "pat_missed",
+        "pat_blocked",
+        "pat_pct",
+        "gwfg_made",
+        "gwfg_att",
+        "gwfg_missed",
+        "gwfg_blocked",
+        "gwfg_distance",
+        "pt_att",
+        "pt_blocked",
+        "pt_long",
+        "pt_yards",
+        "pt_inside_20",
+        "pt_out_of_bounds",
+        "pt_downed",
+        "pt_touchback",
+        "pt_fair_caught",
+        "pt_returned",
+        "pt_return_yards",
+        "pt_return_tds",
+        "pt_net_yards",
+        "fantasy_points",
+        "fantasy_points_ppr"
+      ],
+      "row_count": 18983,
+      "season": {
+        "min": 2024,
+        "max": 2024,
+        "present_integer_count": 18983
+      },
+      "week": {
+        "min": 1,
+        "max": 22,
+        "present_integer_count": 18983
+      },
+      "rows_by_season": {
+        "2024": 18983
+      },
+      "rows_by_week": {
+        "1": 1041,
+        "10": 906,
+        "11": 928,
+        "12": 869,
+        "13": 1057,
+        "14": 875,
+        "15": 1104,
+        "16": 1076,
+        "17": 1081,
+        "18": 1055,
+        "19": 390,
+        "2": 1049,
+        "20": 259,
+        "21": 134,
+        "22": 70,
+        "3": 1072,
+        "4": 1053,
+        "5": 938,
+        "6": 942,
+        "7": 1009,
+        "8": 1079,
+        "9": 996
+      },
+      "missing_required_columns": []
+    }
+  ],
+  "checks": {
+    "stats2024": {
+      "offensive_position_rows": 6214,
+      "duplicate_player_game_keys": 0,
+      "invalid_or_missing_numeric_metric_rows": 0,
+      "rows_without_schedule_game": 0,
+      "game_count": 285
+    },
+    "stats2025": {
+      "offensive_position_rows": 6396,
+      "duplicate_player_game_keys": 0,
+      "invalid_or_missing_numeric_metric_rows": 0,
+      "rows_without_schedule_game": 0,
+      "game_count": 285
+    },
+    "stats2026": {
+      "offensive_position_rows": 1475,
+      "duplicate_player_game_keys": 0,
+      "invalid_or_missing_numeric_metric_rows": 0,
+      "rows_without_schedule_game": 0,
+      "game_count": 65
+    },
+    "schedule_stats_2026_join": {
+      "completed_schedule_games": 65,
+      "distinct_stats_games": 65,
+      "completed_games_without_published_stats": [],
+      "latest_completed_gameday": "2026-10-08",
+      "latest_completed_game_id": "2026_05_TB_DAL"
+    },
+    "espn_live_injuries": {
+      "timestamp": "2026-10-11T06:13:51Z",
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "name": "Regular Season",
+        "displayName": "2026"
+      },
+      "group_count": 32,
+      "injury_report_count": 800,
+      "status_counts": {
+        "Injured Reserve": 52,
+        "Out": 89,
+        "Questionable": 79,
+        "Active": 577,
+        "Doubtful": 3
+      },
+      "report_date_min": "2026-09-23T01:20Z",
+      "report_date_max": "2026-10-11T06:02Z",
+      "group_with_team_object_count": 0,
+      "athlete_id_present_count": 0,
+      "records_with_espn_player_link_id": 800,
+      "records_linked_to_roster_gsis_id": 705,
+      "identity_warning": "Injury id is report id. In this payload athlete.id is absent. Derive ESPN athlete id only from validated ESPN player links, then map roster espn_id to gsis_id; unresolved records must stay unresolved."
+    }
+  },
+  "documentation_and_live_api_observations": [
+    {
+      "name": "data_schedule",
+      "url": "https://nflreadr.nflverse.com/articles/nflverse_data_schedule.html",
+      "checked_at_utc": "2026-10-11T06:11:38.219933+00:00",
+      "http_status": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "sha256": null,
+      "response_bytes": 0,
+      "proxy_connect_status": 403,
+      "origin_response_received": false
+    },
+    {
+      "name": "injuries_reference",
+      "url": "https://nflreadr.nflverse.com/reference/load_injuries.html",
+      "checked_at_utc": "2026-10-11T06:11:38.220569+00:00",
+      "http_status": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "sha256": null,
+      "response_bytes": 0,
+      "proxy_connect_status": 403,
+      "origin_response_received": false
+    },
+    {
+      "name": "player_stats_reference",
+      "url": "https://nflreadr.nflverse.com/reference/load_player_stats.html",
+      "checked_at_utc": "2026-10-11T06:11:38.221041+00:00",
+      "http_status": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "sha256": null,
+      "response_bytes": 0,
+      "proxy_connect_status": 403,
+      "origin_response_received": false
+    },
+    {
+      "name": "espn_readme",
+      "url": "https://raw.githubusercontent.com/pseudo-r/Public-ESPN-API/main/README.md",
+      "checked_at_utc": "2026-10-11T06:11:38.221380+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/pseudo-r/Public-ESPN-API/main/README.md",
+      "sha256": "0958933944e7ac784262557ae320a7930781ed35feac1962d19a376e78155be7",
+      "response_bytes": 32352
+    },
+    {
+      "name": "nflreadr_injuries_source",
+      "url": "https://raw.githubusercontent.com/nflverse/nflreadr/main/R/load_injuries.R",
+      "checked_at_utc": "2026-10-11T06:12:08.513313+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/nflverse/nflreadr/main/R/load_injuries.R",
+      "sha256": "abcb22de7eb3c258267e29245bfbf17e83de57c5fe6284042032c3053664a5a6",
+      "response_bytes": 1439
+    },
+    {
+      "name": "nflreadr_schedule_source",
+      "url": "https://raw.githubusercontent.com/nflverse/nflreadr/main/vignettes/articles/nflverse_data_schedule.Rmd",
+      "checked_at_utc": "2026-10-11T06:12:08.514117+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/nflverse/nflreadr/main/vignettes/articles/nflverse_data_schedule.Rmd",
+      "sha256": "6ea71f130135c4ff7cebc7221319428e3c1ba69fc9b8f1d26a306d5271670278",
+      "response_bytes": 9462
+    },
+    {
+      "name": "nflreadr_stats_source",
+      "url": "https://raw.githubusercontent.com/nflverse/nflreadr/main/R/load_player_stats.R",
+      "checked_at_utc": "2026-10-11T06:12:08.514519+00:00",
+      "http_status": 404,
+      "error": "Not Found",
+      "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+      "response_bytes": 14
+    },
+    {
+      "name": "espn_readme_docs",
+      "url": "https://api.github.com/repos/pseudo-r/Public-ESPN-API/git/trees/main?recursive=1",
+      "checked_at_utc": "2026-10-11T06:12:08.515265+00:00",
+      "http_status": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "sha256": null,
+      "response_bytes": 0,
+      "proxy_connect_status": 403,
+      "origin_response_received": false
+    },
+    {
+      "name": "espn_response_schemas",
+      "url": "https://raw.githubusercontent.com/pseudo-r/Public-ESPN-API/main/docs/response_schemas.md",
+      "checked_at_utc": "2026-10-11T06:12:19.226214+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/pseudo-r/Public-ESPN-API/main/docs/response_schemas.md",
+      "sha256": "be34ec5596d85c22436eeb0a3a505a02c04e8183c938aa22aed745088078aee3",
+      "response_bytes": 26079
+    },
+    {
+      "name": "espn_football_docs",
+      "url": "https://raw.githubusercontent.com/pseudo-r/Public-ESPN-API/main/docs/sports/football.md",
+      "checked_at_utc": "2026-10-11T06:12:19.227047+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/pseudo-r/Public-ESPN-API/main/docs/sports/football.md",
+      "sha256": "7bc1c0067fda8ad08cf616b1e864db63ebb47402f73eef31602969a659aec6cc",
+      "response_bytes": 16598
+    },
+    {
+      "name": "espn_probe_results",
+      "url": "https://raw.githubusercontent.com/pseudo-r/Public-ESPN-API/main/docs/data/live-probes.json",
+      "checked_at_utc": "2026-10-11T06:12:19.227486+00:00",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/pseudo-r/Public-ESPN-API/main/docs/data/live-probes.json",
+      "sha256": "60d470284ab985a816e6ec6ca7ba872f3f8d275f9e7d52582586091f24ed1020",
+      "response_bytes": 13909
+    },
+    {
+      "name": "espn_live_injuries",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
+      "checked_at_utc": "2026-10-11T06:13:25.811105+00:00",
+      "http_status": 200,
+      "final_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
+      "sha256": "1784c04039679ad40ddf112cb2ca34fac75fb1dec37f927272a31f4ffe7de7eb",
+      "response_bytes": 8761015
+    },
+    {
+      "name": "espn_injuries_schema",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
+      "checked_at_utc": "2026-10-11T06:13:58.036180+00:00",
+      "http_status": 200,
+      "final_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
+      "last_modified": null,
+      "sha256": "cf6ba9fea47723efde47b06194e6465d69ae980716a0e40975412d7c5404719f",
+      "response_bytes": 8761015,
+      "top_level_keys": [
+        "timestamp",
+        "status",
+        "season",
+        "injuries"
+      ],
+      "shape": {
+        "timestamp": "str",
+        "status": "str",
+        "season": {
+          "year": "int",
+          "type": "int",
+          "name": "str",
+          "displayName": "str"
+        },
+        "injuries": {
+          "length": 32,
+          "first_item_shape": {
+            "id": "str",
+            "displayName": "str",
+            "injuries": {
+              "length": 25,
+              "first_item_shape": {
+                "object_keys": [
+                  "id",
+                  "longComment",
+                  "shortComment",
+                  "status",
+                  "date",
+                  "athlete",
+                  "source",
+                  "type",
+                  "details"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "espn_roster_schema",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster",
+      "checked_at_utc": "2026-10-11T06:13:58.036863+00:00",
+      "http_status": 200,
+      "final_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster",
+      "last_modified": null,
+      "sha256": "f2cdcc1c9c2ae5c5fa075bbdcc1321734dbea553fc705cf706525ab78c685fc9",
+      "response_bytes": 392700,
+      "top_level_keys": [
+        "timestamp",
+        "status",
+        "season",
+        "athletes",
+        "coach",
+        "team"
+      ],
+      "shape": {
+        "timestamp": "str",
+        "status": "str",
+        "season": {
+          "year": "int",
+          "displayName": "str",
+          "type": "int",
+          "name": "str"
+        },
+        "athletes": {
+          "length": 6,
+          "first_item_shape": {
+            "position": "str",
+            "items": {
+              "length": 26,
+              "first_item_shape": {
+                "object_keys": [
+                  "id",
+                  "uid",
+                  "guid",
+                  "alternateIds",
+                  "firstName",
+                  "lastName",
+                  "fullName",
+                  "displayName",
+                  "shortName",
+                  "weight",
+                  "displayWeight",
+                  "height",
+                  "displayHeight",
+                  "age",
+                  "dateOfBirth",
+                  "links",
+                  "birthPlace",
+                  "college",
+                  "slug",
+                  "headshot",
+                  "jersey",
+                  "position",
+                  "injuries",
+                  "teams",
+                  "contracts",
+                  "experience",
+                  "contract",
+                  "status"
+                ]
+              }
+            }
+          }
+        },
+        "coach": {
+          "length": 1,
+          "first_item_shape": {
+            "id": "str",
+            "firstName": "str",
+            "lastName": "str",
+            "experience": "int"
+          }
+        },
+        "team": {
+          "id": "str",
+          "abbreviation": "str",
+          "location": "str",
+          "name": "str",
+          "displayName": "str",
+          "clubhouse": "str",
+          "color": "str",
+          "logo": "str",
+          "recordSummary": "str",
+          "seasonSummary": "str",
+          "standingSummary": "str"
+        }
+      }
+    },
+    {
+      "name": "espn_scoreboard_schema",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261011&limit=100",
+      "checked_at_utc": "2026-10-11T06:13:58.037304+00:00",
+      "http_status": 200,
+      "final_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+      "last_modified": null,
+      "sha256": "ec5fa77c7ce3837b247455b4076a5214c9594a7ce32bdf1cf9df37b1f62db743",
+      "response_bytes": 233793,
+      "top_level_keys": [
+        "leagues",
+        "events",
+        "provider",
+        "week"
+      ],
+      "shape": {
+        "leagues": {
+          "length": 1,
+          "first_item_shape": {
+            "id": "str",
+            "uid": "str",
+            "name": "str",
+            "abbreviation": "str",
+            "slug": "str",
+            "season": {
+              "object_keys": [
+                "year",
+                "startDate",
+                "endDate",
+                "displayName",
+                "type"
+              ]
+            },
+            "logos": {
+              "length": 2,
+              "first_item_shape": {
+                "object_keys": [
+                  "href",
+                  "width",
+                  "height",
+                  "alt",
+                  "rel",
+                  "lastUpdated"
+                ]
+              }
+            },
+            "calendarType": "str",
+            "calendarIsWhitelist": "bool",
+            "calendarStartDate": "str",
+            "calendarEndDate": "str",
+            "calendar": {
+              "length": 4,
+              "first_item_shape": {
+                "object_keys": [
+                  "label",
+                  "value",
+                  "startDate",
+                  "endDate",
+                  "entries"
+                ]
+              }
+            }
+          }
+        },
+        "events": {
+          "length": 13,
+          "first_item_shape": {
+            "id": "str",
+            "uid": "str",
+            "date": "str",
+            "name": "str",
+            "shortName": "str",
+            "season": {
+              "object_keys": [
+                "year",
+                "type",
+                "slug"
+              ]
+            },
+            "week": {
+              "object_keys": [
+                "number"
+              ]
+            },
+            "competitions": {
+              "length": 1,
+              "first_item_shape": {
+                "object_keys": [
+                  "id",
+                  "uid",
+                  "date",
+                  "attendance",
+                  "type",
+                  "timeValid",
+                  "neutralSite",
+                  "conferenceCompetition",
+                  "playByPlayAvailable",
+                  "recent",
+                  "venue",
+                  "competitors",
+                  "notes",
+                  "status",
+                  "broadcasts",
+                  "leaders",
+                  "format",
+                  "tickets",
+                  "startDate",
+                  "broadcast",
+                  "geoBroadcasts",
+                  "odds",
+                  "highlights"
+                ]
+              }
+            },
+            "links": {
+              "length": 1,
+              "first_item_shape": {
+                "object_keys": [
+                  "language",
+                  "rel",
+                  "href",
+                  "text",
+                  "shortText",
+                  "isExternal",
+                  "isPremium"
+                ]
+              }
+            },
+            "status": {
+              "object_keys": [
+                "clock",
+                "displayClock",
+                "period",
+                "type"
+              ]
+            }
+          }
+        },
+        "provider": {
+          "id": "str",
+          "name": "str",
+          "priority": "int",
+          "logos": {
+            "length": 2,
+            "first_item_shape": {
+              "object_keys": [
+                "href",
+                "rel"
+              ]
+            }
+          },
+          "displayName": "str"
+        },
+        "week": {
+          "number": "int"
+        }
+      }
+    },
+    {
+      "name": "espn_summary_schema",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872980",
+      "checked_at_utc": "2026-10-11T06:13:58.037794+00:00",
+      "http_status": 200,
+      "final_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary",
+      "last_modified": null,
+      "sha256": "e806411206af6d37e7b89686556d63a11d3e0f8f871462595eac6ee576927f9f",
+      "response_bytes": 574464,
+      "top_level_keys": [
+        "boxscore",
+        "format",
+        "gameInfo",
+        "drives",
+        "leaders",
+        "injuries",
+        "broadcasts",
+        "pickcenter",
+        "odds",
+        "againstTheSpread",
+        "scoringPlays",
+        "news",
+        "winprobability",
+        "header",
+        "article",
+        "videos",
+        "wallclockAvailable",
+        "meta",
+        "standings"
+      ],
+      "shape": {
+        "boxscore": {
+          "teams": {
+            "length": 2,
+            "first_item_shape": {
+              "object_keys": [
+                "team",
+                "statistics",
+                "displayOrder",
+                "homeAway"
+              ]
+            }
+          },
+          "players": {
+            "length": 2,
+            "first_item_shape": {
+              "object_keys": [
+                "team",
+                "statistics",
+                "displayOrder"
+              ]
+            }
+          }
+        },
+        "format": {
+          "regulation": {
+            "periods": "int",
+            "displayName": "str",
+            "slug": "str",
+            "clock": "float"
+          },
+          "overtime": {
+            "periods": "int",
+            "displayName": "str",
+            "slug": "str",
+            "clock": "float"
+          },
+          "suddenDeath": {
+            "periods": "int",
+            "clock": "float"
+          }
+        },
+        "gameInfo": {
+          "venue": {
+            "id": "str",
+            "guid": "str",
+            "fullName": "str",
+            "address": {
+              "object_keys": [
+                "city",
+                "state",
+                "zipCode",
+                "country"
+              ]
+            },
+            "grass": "bool",
+            "images": {
+              "length": 2,
+              "first_item_shape": {
+                "object_keys": [
+                  "href",
+                  "width",
+                  "height",
+                  "alt",
+                  "rel"
+                ]
+              }
+            }
+          },
+          "attendance": "int",
+          "officials": {
+            "length": 7,
+            "first_item_shape": {
+              "object_keys": [
+                "fullName",
+                "displayName",
+                "position",
+                "order"
+              ]
+            }
+          }
+        },
+        "drives": {
+          "previous": {
+            "length": 21,
+            "first_item_shape": {
+              "object_keys": [
+                "id",
+                "description",
+                "team",
+                "start",
+                "end",
+                "timeElapsed",
+                "yards",
+                "isScore",
+                "offensivePlays",
+                "result",
+                "shortDisplayResult",
+                "displayResult",
+                "plays"
+              ]
+            }
+          }
+        },
+        "leaders": {
+          "length": 2,
+          "first_item_shape": {
+            "team": {
+              "object_keys": [
+                "id",
+                "uid",
+                "displayName",
+                "abbreviation",
+                "links",
+                "logo",
+                "logos"
+              ]
+            },
+            "leaders": {
+              "length": 5,
+              "first_item_shape": {
+                "object_keys": [
+                  "name",
+                  "displayName",
+                  "leaders"
+                ]
+              }
+            }
+          }
+        },
+        "injuries": {
+          "length": 2,
+          "first_item_shape": {
+            "team": {
+              "object_keys": [
+                "id",
+                "uid",
+                "displayName",
+                "abbreviation",
+                "links",
+                "logo",
+                "logos"
+              ]
+            },
+            "injuries": {
+              "length": 5,
+              "first_item_shape": {
+                "object_keys": [
+                  "status",
+                  "date",
+                  "athlete",
+                  "type",
+                  "details"
+                ]
+              }
+            }
+          }
+        },
+        "broadcasts": {
+          "length": 1,
+          "first_item_shape": {
+            "type": {
+              "object_keys": [
+                "id",
+                "shortName",
+                "longName",
+                "slug"
+              ]
+            },
+            "station": "str",
+            "market": {
+              "object_keys": [
+                "id",
+                "type"
+              ]
+            },
+            "media": {
+              "object_keys": [
+                "callLetters",
+                "name",
+                "shortName"
+              ]
+            },
+            "lang": "str",
+            "region": "str",
+            "isNational": "bool"
+          }
+        },
+        "pickcenter": {
+          "length": 1,
+          "first_item_shape": {
+            "provider": {
+              "object_keys": [
+                "id",
+                "name",
+                "priority",
+                "logos"
+              ]
+            },
+            "details": "str",
+            "overUnder": "float",
+            "spread": "float",
+            "overOdds": "float",
+            "underOdds": "float",
+            "awayTeamOdds": {
+              "object_keys": [
+                "favorite",
+                "underdog",
+                "moneyLine",
+                "spreadOdds",
+                "team",
+                "teamId",
+                "favoriteAtOpen"
+              ]
+            },
+            "homeTeamOdds": {
+              "object_keys": [
+                "favorite",
+                "underdog",
+                "moneyLine",
+                "spreadOdds",
+                "team",
+                "teamId",
+                "favoriteAtOpen"
+              ]
+            },
+            "links": {
+              "length": 7,
+              "first_item_shape": {
+                "object_keys": [
+                  "language",
+                  "rel",
+                  "href",
+                  "text",
+                  "shortText",
+                  "isExternal",
+                  "isPremium"
+                ]
+              }
+            },
+            "moneyline": {
+              "object_keys": [
+                "displayName",
+                "shortDisplayName",
+                "home",
+                "away"
+              ]
+            },
+            "pointSpread": {
+              "object_keys": [
+                "displayName",
+                "shortDisplayName",
+                "home",
+                "away"
+              ]
+            },
+            "total": {
+              "object_keys": [
+                "displayName",
+                "shortDisplayName",
+                "over",
+                "under"
+              ]
+            },
+            "link": {
+              "object_keys": [
+                "text",
+                "language",
+                "rel",
+                "href",
+                "isExternal",
+                "isPremium"
+              ]
+            },
+            "header": {
+              "object_keys": [
+                "logo",
+                "text"
+              ]
+            },
+            "footer": {
+              "object_keys": [
+                "disclaimer"
+              ]
+            }
+          }
+        },
+        "odds": {
+          "length": 0,
+          "first_item_shape": null
+        },
+        "againstTheSpread": {
+          "length": 2,
+          "first_item_shape": {
+            "team": {
+              "object_keys": [
+                "id",
+                "uid",
+                "displayName",
+                "abbreviation",
+                "links",
+                "logo",
+                "logos"
+              ]
+            },
+            "records": {
+              "length": 0,
+              "first_item_shape": null
+            }
+          }
+        },
+        "scoringPlays": {
+          "length": 7,
+          "first_item_shape": {
+            "id": "str",
+            "type": {
+              "object_keys": [
+                "id",
+                "text",
+                "abbreviation"
+              ]
+            },
+            "text": "str",
+            "awayScore": "int",
+            "homeScore": "int",
+            "period": {
+              "object_keys": [
+                "number"
+              ]
+            },
+            "clock": {
+              "object_keys": [
+                "value",
+                "displayValue"
+              ]
+            },
+            "team": {
+              "object_keys": [
+                "id",
+                "uid",
+                "displayName",
+                "abbreviation",
+                "links",
+                "logo",
+                "logos"
+              ]
+            },
+            "scoringType": {
+              "object_keys": [
+                "name",
+                "displayName",
+                "abbreviation"
+              ]
+            }
+          }
+        },
+        "news": {
+          "header": "str",
+          "link": {
+            "language": "str",
+            "rel": {
+              "length": 3,
+              "first_item_shape": "str"
+            },
+            "href": "str",
+            "text": "str",
+            "shortText": "str",
+            "isExternal": "bool",
+            "isPremium": "bool"
+          },
+          "articles": {
+            "length": 6,
+            "first_item_shape": {
+              "object_keys": [
+                "id",
+                "nowId",
+                "contentKey",
+                "dataSourceIdentifier",
+                "type",
+                "headline",
+                "description",
+                "lastModified",
+                "published",
+                "images",
+                "categories",
+                "byline",
+                "links",
+                "premium"
+              ]
+            }
+          }
+        },
+        "winprobability": {
+          "length": 184,
+          "first_item_shape": {
+            "homeWinPercentage": "float",
+            "tiePercentage": "float",
+            "playId": "str"
+          }
+        },
+        "header": {
+          "id": "str",
+          "uid": "str",
+          "season": {
+            "year": "int",
+            "current": "bool",
+            "type": "int"
+          },
+          "timeValid": "bool",
+          "competitions": {
+            "length": 1,
+            "first_item_shape": {
+              "object_keys": [
+                "id",
+                "uid",
+                "date",
+                "neutralSite",
+                "conferenceCompetition",
+                "boxscoreAvailable",
+                "commentaryAvailable",
+                "liveAvailable",
+                "onWatchESPN",
+                "recent",
+                "wallclockAvailable",
+                "boxscoreSource",
+                "playByPlaySource",
+                "competitors",
+                "status",
+                "broadcasts",
+                "boxscoreMinutes"
+              ]
+            }
+          },
+          "links": {
+            "length": 6,
+            "first_item_shape": {
+              "object_keys": [
+                "rel",
+                "href",
+                "text",
+                "shortText",
+                "isExternal",
+                "isPremium"
+              ]
+            }
+          },
+          "week": "int",
+          "league": {
+            "id": "str",
+            "uid": "str",
+            "name": "str",
+            "abbreviation": "str",
+            "shortName": "str",
+            "slug": "str",
+            "isTournament": "bool",
+            "links": {
+              "length": 19,
+              "first_item_shape": {
+                "object_keys": [
+                  "rel",
+                  "href",
+                  "text"
+                ]
+              }
+            },
+            "logos": {
+              "length": 2,
+              "first_item_shape": {
+                "object_keys": [
+                  "href",
+                  "rel"
+                ]
+              }
+            }
+          }
+        },
+        "article": {
+          "id": "int",
+          "nowId": "str",
+          "contentKey": "str",
+          "dataSourceIdentifier": "str",
+          "publishedkey": "str",
+          "type": "str",
+          "gameId": "str",
+          "headline": "str",
+          "description": "str",
+          "linkText": "str",
+          "categorized": "str",
+          "originallyPosted": "str",
+          "lastModified": "str",
+          "published": "str",
+          "section": "str",
+          "source": "str",
+          "images": {
+            "length": 1,
+            "first_item_shape": {
+              "object_keys": [
+                "type",
+                "name",
+                "caption",
+                "height",
+                "width",
+                "url"
+              ]
+            }
+          },
+          "video": {
+            "length": 0,
+            "first_item_shape": null
+          },
+          "categories": {
+            "length": 4,
+            "first_item_shape": {
+              "object_keys": [
+                "id",
+                "type",
+                "uid",
+                "guid",
+                "description",
+                "sportId",
+                "leagueId",
+                "league"
+              ]
+            }
+          },
+          "keywords": {
+            "length": 4,
+            "first_item_shape": "str"
+          },
+          "story": "str",
+          "allowComments": "bool",
+          "allowContentReactions": "bool",
+          "allowSearch": "bool",
+          "isLiveBlog": "bool",
+          "links": {
+            "api": {
+              "object_keys": [
+                "self"
+              ]
+            },
+            "app": {
+              "object_keys": [
+                "sportscenter"
+              ]
+            },
+            "mobile": {
+              "object_keys": [
+                "href"
+              ]
+            },
+            "web": {
+              "object_keys": [
+                "href"
+              ]
+            }
+          },
+          "premium": "bool"
+        },
+        "videos": {
+          "length": 1,
+          "first_item_shape": {
+            "id": "int",
+            "cerebroId": "str",
+            "source": "str",
+            "headline": "str",
+            "description": "str",
+            "lastModified": "str",
+            "originalPublishDate": "str",
+            "duration": "int",
+            "timeRestrictions": {
+              "object_keys": [
+                "embargoDate",
+                "expirationDate"
+              ]
+            },
+            "deviceRestrictions": {
+              "object_keys": [
+                "devices",
+                "type"
+              ]
+            },
+            "thumbnail": "str",
+            "links": {
+              "object_keys": [
+                "api",
+                "mobile",
+                "source",
+                "sportscenter",
+                "web"
+              ]
+            },
+            "ad": {
+              "object_keys": [
+                "bundle",
+                "sport"
+              ]
+            },
+            "tracking": {
+              "object_keys": [
+                "coverageType",
+                "leagueName",
+                "program",
+                "sportName",
+                "trackingId",
+                "trackingName"
+              ]
+            }
+          }
+        },
+        "wallclockAvailable": "bool",
+        "meta": {
+          "gp_topic": "str",
+          "gameSwitcherEnabled": "bool",
+          "picker_topic": "str",
+          "lastUpdatedAt": "str",
+          "firstPlayWallClock": "str",
+          "lastPlayWallClock": "str",
+          "gameState": "str",
+          "syncUrl": "str"
+        },
+        "standings": {
+          "fullViewLink": {
+            "text": "str",
+            "href": "str"
+          },
+          "header": "str",
+          "groups": {
+            "length": 2,
+            "first_item_shape": {
+              "object_keys": [
+                "standings",
+                "header",
+                "href",
+                "conferenceHeader",
+                "divisionHeader"
+              ]
+            }
+          },
+          "isSameConference": "bool"
+        }
+      }
+    },
+    {
+      "name": "espn_news_schema",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?limit=50",
+      "checked_at_utc": "2026-10-11T06:13:58.038646+00:00",
+      "http_status": 200,
+      "final_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/news",
+      "last_modified": null,
+      "sha256": "eee6f621b62574e7f62e87ad1d5618ffbf9c9dbbabca5b8d808784d7c20e1991",
+      "response_bytes": 170619,
+      "top_level_keys": [
+        "header",
+        "link",
+        "articles"
+      ],
+      "shape": {
+        "header": "str",
+        "link": {
+          "language": "str",
+          "rel": {
+            "length": 3,
+            "first_item_shape": "str"
+          },
+          "href": "str",
+          "text": "str",
+          "shortText": "str",
+          "isExternal": "bool",
+          "isPremium": "bool"
+        },
+        "articles": {
+          "length": 50,
+          "first_item_shape": {
+            "id": "int",
+            "nowId": "str",
+            "contentKey": "str",
+            "dataSourceIdentifier": "str",
+            "type": "str",
+            "headline": "str",
+            "description": "str",
+            "lastModified": "str",
+            "published": "str",
+            "images": {
+              "length": 3,
+              "first_item_shape": {
+                "object_keys": [
+                  "dataSourceIdentifier",
+                  "id",
+                  "type",
+                  "name",
+                  "caption",
+                  "alt",
+                  "credit",
+                  "height",
+                  "width",
+                  "url"
+                ]
+              }
+            },
+            "categories": {
+              "length": 21,
+              "first_item_shape": {
+                "object_keys": [
+                  "id",
+                  "type",
+                  "guid",
+                  "description",
+                  "sportId",
+                  "leagueId",
+                  "league"
+                ]
+              }
+            },
+            "byline": "str",
+            "links": {
+              "object_keys": [
+                "api",
+                "app",
+                "mobile",
+                "web"
+              ]
+            },
+            "premium": "bool"
+          }
+        }
+      }
+    }
+  ],
+  "documented_update_frequencies": {
+    "reference_url": "https://raw.githubusercontent.com/nflverse/nflreadr/main/vignettes/articles/nflverse_data_schedule.Rmd",
+    "games": {
+      "frequency": "Every 5 minutes during the season",
+      "quoted_text": "Game/Schedule data ... updates very 5 minutes during the season."
+    },
+    "rosters": {
+      "frequency": "Daily 07:00 UTC",
+      "quoted_text": "Roster data ... updates every day at 7AM UTC."
+    },
+    "stats_player": {
+      "frequency": "Nightly after game days, plus specified times on game days",
+      "quoted_text": "... on a nightly basis after each game day (and additionally at specific points on game days) during the season."
+    },
+    "injuries": {
+      "frequency": "Daily 07:00 UTC during season",
+      "quoted_text": "Injury Data ... updates every day at 7AM UTC throughout the season.",
+      "source_semantics": "Official load_injuries R source describes weekly injury report data available since 2009.",
+      "deprecated_status": "Not established by consulted official sources; the retrieved official source exports load_injuries and current 2026 CSV is HTTP 200. Do not claim deprecation from an unverified assumption."
+    }
+  },
+  "availability_conclusions": {
+    "stats2026": "Available now: HTTP 200, 4517 rows, weeks 1–5. Availability is limited to this consultation and may change.",
+    "injuries2026": "Available now: HTTP 200, 1413 rows, weeks 1–5. Published weekly injury report is distinct from game-day participation confirmation.",
+    "historical_development_workflow": "Real 2024 and 2025 stats plus 2025 roster were also downloaded. A season-2025 historical snapshot can be tested without manufacturing season-2026 data. Current-season sources are available, so no historical fallback is necessary merely for an assumed 404.",
+    "espn_network": "Previously reported proxy blockage no longer applied during this audit: injuries, roster CHI, scoreboard 20261011, summary for last completed game, and news each returned HTTP 200. A draft change alone is not treated as evidence; these responses are runtime evidence.",
+    "provider_response_size": "Live league injuries response is 8761015 bytes; a 5000000-byte response limit rejects the observed valid payload. Keep a bounded limit large enough for this measured payload.",
+    "source_freshness": "Fetch time proves download time. Calendar/stat weeks and source report timestamps must be displayed separately; absent report does not confirm health or active game-day availability."
+  },
+  "espn_schema_notes": {
+    "injuries": "Live top-level timestamp/status/season/injuries. Team groups have id/displayName/injuries; no team object at group level in this payload. Athlete has team and ESPN player links but no id.",
+    "roster": "Live top-level athletes array groups by position; each group has items array. Athletes have id/status. Roster Active is roster status, not confirmed game-day participation.",
+    "scoreboard": "Live events array, event status.type state/completed. Use explicit one-day dates; referenced third-party documentation warns date ranges returned 400 in its 2026-09-30 probe.",
+    "summary": "Live boxscore has teams and players sibling arrays. player statistic categories have athletes. First observed NFL athlete has athlete/stats without didNotPlay; missing flag means unknown, not active.",
+    "docs_limit": "Third-party response examples include NBA examples and historical shapes. They do not alone certify live NFL response format or pregame inactives."
+  },
+  "validation_recommendations": [
+    "Run the actual Swift core tests and HTTP/cache/scheduler tests; report executed test counts and failures separately from source downloads.",
+    "Use the live CSVs to exercise DataService mappings for current season and historical 2025, including duplicate keys, finite numeric metrics and game joins.",
+    "Validate each live ESPN schema and source timestamp; exercise missing athlete ID, unresolved GSIS mapping, cache freshness, provider outages and oversize responses.",
+    "Do not equate roster Active, an injury record absence, or a missing didNotPlay flag with confirmed game-day participation.",
+    "Run chronological model backtests in the implementation being shipped; compare to a fixed baseline and report sample selection, MAE and empirical interval coverage.",
+    "Do not certify the legacy 0.1 accuracy figures: this audit has not reproduced them or validated the changed 0.2 engine.",
+    "iOS UI compilation, simulator behavior and signing require macOS/Xcode; Linux core tests do not validate the SwiftUI app."
+  ],
+  "retained_raw_response_location": "/tmp/nfl-audit-v02 (temporary, not a published dataset or durable snapshot)",
+  "minimal_real_fixture": {
+    "temporary_path": "/tmp/nfl-audit-v02/espn-injuries-redacted.json",
+    "source": "Live ESPN injury response selected into four real reports; omissions documented in its _fixture_metadata."
+  },
+  "redactionNote": "Transient signed query parameters and fragments of redirected artifact URLs are removed. Original requested source URLs, hashes, schema checks and counts are retained."
+}

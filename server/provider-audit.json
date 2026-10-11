@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "key": "injuries",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries",
+      "checkedAt": "2026-10-11T06:19:44Z",
+      "success": true,
+      "keys": [
+        "injuries",
+        "season",
+        "status",
+        "timestamp"
+      ],
+      "modified": null
+    },
+    {
+      "key": "news",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?limit=50",
+      "checkedAt": "2026-10-11T06:19:45Z",
+      "success": true,
+      "keys": [
+        "articles"
+      ],
+      "modified": null
+    },
+    {
+      "key": "scoreboard:20261011",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261011&limit=100",
+      "checkedAt": "2026-10-11T06:19:46Z",
+      "success": true,
+      "keys": [
+        "events",
+        "week"
+      ],
+      "modified": null
+    },
+    {
+      "key": "roster:CHI",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster",
+      "checkedAt": "2026-10-11T06:19:46Z",
+      "success": true,
+      "keys": [
+        "athletes",
+        "season",
+        "status",
+        "team",
+        "timestamp"
+      ],
+      "modified": null
+    },
+    {
+      "key": "summary:401872991",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872991",
+      "checkedAt": "2026-10-11T06:19:47Z",
+      "success": true,
+      "keys": [
+        "article",
+        "header",
+        "injuries",
+        "news"
+      ],
+      "modified": null
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "checkedAt": "2026-10-11T06:22:53.272228+00:00",
+  "swiftToolchain": "6.1.3 official Linux release, SHA256 and release signature verified",
+  "swiftUnitTests": {
+    "passed": 44,
+    "failed": 0,
+    "optionalLiveChecksSkippedInDefaultRun": 2
+  },
+  "swiftLiveTests": {
+    "passed": 2,
+    "failed": 0,
+    "scope": "Actual published statistics, weather and ESPN readers; 400 chronological observations for each of 11 metrics; 11 metric projections exercised"
+  },
+  "pythonServiceTests": {
+    "passed": 22,
+    "failed": 0
+  },
+  "localService": {
+    "functionalContextRequest": "passed",
+    "healthStatus": "ok",
+    "schedulerRunning": true,
+    "publicDeployment": false,
+    "restartWithRetainedCache": "passed"
+  },
+  "iphoneSourceSyntax": "passed Swift parser; AppStore types/persistence additionally checked with temporary Linux mocks",
+  "iphoneSDKBuild": "not run: macOS/Xcode unavailable in Linux",
+  "iphoneVisualAndDeviceTests": "not run",
+  "ci": "macOS simulator build workflow added; remote CI not run",
+  "sourceEvidence": [
+    "docs/source-audit-v0.2.json",
+    "docs/validation-v0.2.json",
+    "docs/context-audit-v0.2.json",
+    "docs/server-smoke-v0.2.json",
+    "server/provider-audit.json"
+  ],
+  "limitations": [
+    "No complete guaranteed pregame active/inactive feed from free ESPN sources",
+    "No push notifications",
+    "Empirical ranges and climate adjustments require prospective validation",
+    "Continuous backend needs persistent HTTPS hosting for use with app closed"
+  ],
+  "dockerImageBuild": "not run; Python entrypoint and service were tested directly"
+}

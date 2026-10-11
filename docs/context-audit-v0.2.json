@@ -1,0 +1,97 @@
+{
+  "checkedAt" : "2026-10-11T06:19:50Z",
+  "context" : {
+    "fetchedAt" : "2026-10-11T06:19:50Z",
+    "news" : [
+      {
+        "id" : "50133043",
+        "playerIDs" : [
+
+        ],
+        "publishedAt" : "2026-10-10T10:40:06Z",
+        "source" : "ESPN",
+        "summary" : "Big performances for Brock Bowers, Travon Walker and Luther Burden III? The Giants pulling an upset? And an under-the-radar RB emerging this week in fantasy?",
+        "teams" : [
+          "LV",
+          "NYG",
+          "PHI",
+          "MIA",
+          "ARI",
+          "DET",
+          "CLE",
+          "CHI",
+          "PIT",
+          "JAX",
+          "DEN",
+          "GB"
+        ],
+        "title" : "NFL Week 5 predictions: Upsets, fantasy sleepers, stat lines, TD scorers, more",
+        "url" : "https:\/\/www.espn.com\/nfl\/story\/_\/id\/50133043\/week-5-predictions-upsets-fantasy-sleepers-stats-2026"
+      }
+    ],
+    "reports" : [
+
+    ],
+    "sources" : [
+      {
+        "checkedAt" : "2026-10-11T06:19:49Z",
+        "name" : "Lesiones · ESPN",
+        "rows" : 0,
+        "url" : "https:\/\/site.api.espn.com\/apis\/site\/v2\/sports\/football\/nfl\/injuries"
+      },
+      {
+        "checkedAt" : "2026-10-11T06:19:50Z",
+        "name" : "Noticias · ESPN",
+        "rows" : 0,
+        "url" : "https:\/\/site.api.espn.com\/apis\/site\/v2\/sports\/football\/nfl\/news?limit=50"
+      },
+      {
+        "checkedAt" : "2026-10-11T06:19:50Z",
+        "name" : "Calendario del partido · ESPN",
+        "rows" : 0,
+        "url" : "https:\/\/site.api.espn.com\/apis\/site\/v2\/sports\/football\/nfl\/scoreboard?dates=20261011&limit=100"
+      },
+      {
+        "checkedAt" : "2026-10-11T06:19:50Z",
+        "name" : "Participación del partido · ESPN",
+        "rows" : 0,
+        "url" : "https:\/\/site.api.espn.com\/apis\/site\/v2\/sports\/football\/nfl\/summary?event=401872981"
+      }
+    ],
+    "warnings" : [
+      "Participación sin confirmar: la ausencia de lesiones o de noticias no demuestra que el jugador vaya a jugar."
+    ]
+  },
+  "game" : {
+    "away" : "PHI",
+    "completed" : false,
+    "home" : "JAX",
+    "id" : "2026_05_PHI_JAX",
+    "kickoff" : "2026-10-11T13:30:00Z",
+    "kind" : "REG",
+    "location" : "Home",
+    "roof" : "outdoors",
+    "season" : 2026,
+    "stadium" : "Tottenham Hotspur Stadium",
+    "week" : 5
+  },
+  "player" : {
+    "espnID" : "2576336",
+    "id" : "00-0032104",
+    "name" : "Ameer Abdullah",
+    "position" : "RB",
+    "status" : "ACT",
+    "team" : "JAX"
+  },
+  "weather" : {
+    "checkedAt" : "2026-10-11T06:19:50Z",
+    "detail" : "Open-Meteo · área de Tottenham, Londres, próxima al estadio · hora del inicio. Techo: outdoors. La proyección muestra si hay evidencia histórica suficiente para aplicar un ajuste.",
+    "indoor" : false,
+    "precipitationProbability" : 0,
+    "sourceURL" : "https:\/\/api.open-meteo.com\/v1\/forecast?latitude=51.6043&longitude=-0.0664&hourly=temperature_2m,precipitation_probability,wind_speed_10m&forecast_days=16&timeformat=unixtime&timezone=GMT&temperature_unit=celsius&wind_speed_unit=kmh&precipitation_unit=mm",
+    "temperatureC" : 14.8,
+    "title" : "15 °C · viento 8 km\/h · lluvia 0 %",
+    "validAt" : "2026-10-11T13:00:00Z",
+    "windKmh" : 7.6
+  }
+}

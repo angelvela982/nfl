@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-10-02T21:57:45.920929+00:00",
+  "scope": "Independent Python implementation of documented formula; NOT execution of Swift/iOS. Historical files revised after games; conditional on observed stat rows. No accuracy guarantee.",
+  "sources": [
+    {
+      "source": "games",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+      "rows": 7548,
+      "sha256": "49c57fe17fb7a882d851ff6b455b92314d58155386d20ffbe8be645f73702971",
+      "required_columns_ok": true
+    },
+    {
+      "source": "stats2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+      "rows": 3407,
+      "sha256": "88ec064c1b611ab91b494a5b81d37b980d832ec1f3009a39021e025e71b6f025",
+      "required_columns_ok": true
+    },
+    {
+      "source": "stats2025",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2025.csv",
+      "rows": 19422,
+      "sha256": "e5e0615b3d96a3eaebfaee91e55afb4a4e7fe0caf057454177bcd7d6ad4bcfc2",
+      "required_columns_ok": true
+    },
+    {
+      "source": "roster2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "rows": 3020,
+      "sha256": "746ae4cee3c8d3de624caccf67cb1f88bf32306017fb472391a2aa219b03eddc",
+      "required_columns_ok": true
+    },
+    {
+      "source": "injuries2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+      "rows": 1025,
+      "sha256": "d65b65e4b2e4459dcf83813f21e1b085ec816bc1e3e3d98007ffc26c094b6034",
+      "required_columns_ok": true
+    }
+  ],
+  "eligible_stat_rows": 7510,
+  "retrospective": {
+    "passing_yards": {
+      "n": 400,
+      "mae": 64.74566253314575,
+      "simple_last5_mae": 68.635,
+      "interval_n": 237,
+      "observed_interval_coverage": 0.620253164556962
+    },
+    "rushing_yards": {
+      "n": 400,
+      "mae": 19.151709232954747,
+      "simple_last5_mae": 20.085125,
+      "interval_n": 347,
+      "observed_interval_coverage": 0.654178674351585
+    },
+    "receiving_yards": {
+      "n": 400,
+      "mae": 20.574418966856197,
+      "simple_last5_mae": 21.476,
+      "interval_n": 357,
+      "observed_interval_coverage": 0.6918767507002801
+    },
+    "receptions": {
+      "n": 400,
+      "mae": 1.5425468464482968,
+      "simple_last5_mae": 1.571125,
+      "interval_n": 357,
+      "observed_interval_coverage": 0.8403361344537815
+    }
+  }
+}

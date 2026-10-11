@@ -1,0 +1,9 @@
+{
+  "swift_files_syntax_checked": 10,
+  "swift_syntax_errors": 0,
+  "xcode_build": "not_run_no_Xcode_in_environment",
+  "swift_tests": "not_run_no_Swift_in_environment",
+  "ui_execution": "not_run",
+  "live_source_files_verified": 5,
+  "numerical_audit": "independent_python_reproduction_not_Swift_execution"
+}

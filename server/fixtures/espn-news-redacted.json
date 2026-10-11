@@ -1,0 +1,680 @@
+{
+  "articles": [
+    {
+      "id": 50148005,
+      "headline": "Sources: Cardinals finalizing deal to trade WR Marvin Harrison Jr.",
+      "description": "The Cardinals are finalizing a deal to trade Marvin Harrison Jr., sources told ESPN's Adam Schefter and NFL Network's Ian Rapoport.",
+      "published": "2026-10-11T03:14:16Z",
+      "lastModified": "2026-10-11T03:14:16Z",
+      "categories": [
+        {
+          "id": 9572,
+          "type": "league",
+          "uid": "s:20~l:28",
+          "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+          "description": "NFL",
+          "sportId": 28,
+          "leagueId": 28,
+          "league": {
+            "id": 28,
+            "description": "NFL",
+            "abbreviation": "NFL",
+            "links": {
+              "mobile": {
+                "leagues": {
+                  "href": "https://www.espn.com/nfl/"
+                }
+              },
+              "web": {
+                "leagues": {
+                  "href": "https://www.espn.com/nfl/"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 1583,
+          "type": "team",
+          "uid": "s:20~l:28~t:22",
+          "guid": "8fc7b962-95e1-3cb8-6a7d-b499de9ad546",
+          "description": "Arizona Cardinals",
+          "sportId": 28,
+          "teamId": 22,
+          "team": {
+            "id": 22,
+            "description": "Arizona Cardinals",
+            "abbreviation": "ARI",
+            "shortDisplayName": "Cardinals",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 499124,
+          "type": "athlete",
+          "uid": "s:20~l:28~a:4432708",
+          "guid": "7a24e799-fc0e-395e-b740-4ecee71a3c53",
+          "description": "Marvin Harrison Jr",
+          "sportId": 28,
+          "athleteId": 4432708,
+          "athlete": {
+            "id": 4432708,
+            "description": "Marvin Harrison Jr",
+            "links": {
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/nfl/player/_/id/4432708/marvin-harrison-jr"
+                }
+              },
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/nfl/player/_/id/4432708/marvin-harrison-jr"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 409224,
+          "type": "topic",
+          "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+          "description": "news",
+          "sportId": 0,
+          "topicId": 781
+        },
+        {
+          "id": 696416,
+          "type": "contributor",
+          "guid": "ff2bd78b-f473-3bf6-bd0e-12c35dabe606",
+          "description": "Josh Weinfuss",
+          "slug": "josh-weinfuss",
+          "contributor": {
+            "id": 2330,
+            "description": "Josh Weinfuss"
+          }
+        }
+      ],
+      "links": {
+        "api": {
+          "self": {
+            "href": "https://content.core.api.espn.com/v1/sports/news/50148005"
+          }
+        },
+        "app": {
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showStory?uid=50148005"
+          }
+        },
+        "mobile": {
+          "href": "http://m.espn.go.com/nfl/story?storyId=50148005"
+        },
+        "web": {
+          "href": "https://www.espn.com/nfl/story/_/id/50148005/sources-cardinals-finalizing-deal-trade-wr-marvin-harrison-jr"
+        }
+      }
+    },
+    {
+      "id": 50133043,
+      "headline": "NFL Week 5 predictions: Upsets, fantasy sleepers, stat lines, TD scorers, more",
+      "description": "Big performances for Brock Bowers, Travon Walker and Luther Burden III? The Giants pulling an upset? And an under-the-radar RB emerging this week in fantasy?",
+      "published": "2026-10-10T10:40:06Z",
+      "lastModified": "2026-10-10T10:40:06Z",
+      "categories": [
+        {
+          "id": 9572,
+          "type": "league",
+          "uid": "s:20~l:28",
+          "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+          "description": "NFL",
+          "sportId": 28,
+          "leagueId": 28,
+          "league": {
+            "id": 28,
+            "description": "NFL",
+            "abbreviation": "NFL",
+            "links": {
+              "mobile": {
+                "leagues": {
+                  "href": "https://www.espn.com/nfl/"
+                }
+              },
+              "web": {
+                "leagues": {
+                  "href": "https://www.espn.com/nfl/"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 409222,
+          "type": "topic",
+          "guid": "b66e959d-b64e-9bd6-7d5c-1bcb0d53c0cb",
+          "description": "daily",
+          "sportId": 0,
+          "topicId": 779
+        },
+        {
+          "id": 12024,
+          "type": "league",
+          "uid": "s:20~l:3080",
+          "guid": "a472a0eb-d630-3568-bf2a-59572429de6c",
+          "description": "Fantasy NFL",
+          "sportId": 3080,
+          "leagueId": 3080,
+          "league": {
+            "id": 3080,
+            "description": "Fantasy NFL",
+            "abbreviation": "NFLFD"
+          }
+        },
+        {
+          "id": 611584,
+          "type": "league",
+          "guid": "550a1e9e-377e-3019-bf5e-19c027d50a49",
+          "description": "Sports Betting",
+          "sportId": 22000,
+          "leagueId": 22000,
+          "league": {
+            "id": 22000,
+            "description": "Sports Betting"
+          }
+        },
+        {
+          "id": 2553,
+          "type": "team",
+          "uid": "s:20~l:28~t:13",
+          "guid": "b18540eb-6f2b-534c-e7f9-9bd930518da9",
+          "description": "Las Vegas Raiders",
+          "sportId": 28,
+          "teamId": 13,
+          "team": {
+            "id": 13,
+            "description": "Las Vegas Raiders",
+            "abbreviation": "LV",
+            "shortDisplayName": "Raiders",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 1352,
+          "type": "team",
+          "uid": "s:20~l:28~t:19",
+          "guid": "378600ea-2397-8364-8399-b7c1606a49a7",
+          "description": "New York Giants",
+          "sportId": 28,
+          "teamId": 19,
+          "team": {
+            "id": 19,
+            "description": "New York Giants",
+            "abbreviation": "NYG",
+            "shortDisplayName": "Giants",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/nyg/new-york-giants"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 1407,
+          "type": "team",
+          "uid": "s:20~l:28~t:21",
+          "guid": "d1a9b001-1df7-fbd7-ae4c-6ca7065286ec",
+          "description": "Philadelphia Eagles",
+          "sportId": 28,
+          "teamId": 21,
+          "team": {
+            "id": 21,
+            "description": "Philadelphia Eagles",
+            "abbreviation": "PHI",
+            "shortDisplayName": "Eagles",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/phi/philadelphia-eagles"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 2258,
+          "type": "team",
+          "uid": "s:20~l:28~t:15",
+          "guid": "af33088b-1e19-d27d-dbc0-354fd7151703",
+          "description": "Miami Dolphins",
+          "sportId": 28,
+          "teamId": 15,
+          "team": {
+            "id": 15,
+            "description": "Miami Dolphins",
+            "abbreviation": "MIA",
+            "shortDisplayName": "Dolphins",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/mia/miami-dolphins"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 1583,
+          "type": "team",
+          "uid": "s:20~l:28~t:22",
+          "guid": "8fc7b962-95e1-3cb8-6a7d-b499de9ad546",
+          "description": "Arizona Cardinals",
+          "sportId": 28,
+          "teamId": 22,
+          "team": {
+            "id": 22,
+            "description": "Arizona Cardinals",
+            "abbreviation": "ARI",
+            "shortDisplayName": "Cardinals",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 1805,
+          "type": "team",
+          "uid": "s:20~l:28~t:8",
+          "guid": "56caffee-178d-f6f2-a076-b277486b8c32",
+          "description": "Detroit Lions",
+          "sportId": 28,
+          "teamId": 8,
+          "team": {
+            "id": 8,
+            "description": "Detroit Lions",
+            "abbreviation": "DET",
+            "shortDisplayName": "Lions",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/det/detroit-lions"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 2719,
+          "type": "team",
+          "uid": "s:20~l:28~t:5",
+          "guid": "539babc5-e5fb-753b-8ae1-c15032a91ef4",
+          "description": "Cleveland Browns",
+          "sportId": 28,
+          "teamId": 5,
+          "team": {
+            "id": 5,
+            "description": "Cleveland Browns",
+            "abbreviation": "CLE",
+            "shortDisplayName": "Browns",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/cle/cleveland-browns"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 1750,
+          "type": "team",
+          "uid": "s:20~l:28~t:3",
+          "guid": "19d73366-b5a5-cca2-a176-a2c024ce0bb3",
+          "description": "Chicago Bears",
+          "sportId": 28,
+          "teamId": 3,
+          "team": {
+            "id": 3,
+            "description": "Chicago Bears",
+            "abbreviation": "CHI",
+            "shortDisplayName": "Bears",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/chi/chicago-bears"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 2776,
+          "type": "team",
+          "uid": "s:20~l:28~t:23",
+          "guid": "debcd592-8d53-71f1-fc15-5c8b8ef9df6e",
+          "description": "Pittsburgh Steelers",
+          "sportId": 28,
+          "teamId": 23,
+          "team": {
+            "id": 23,
+            "description": "Pittsburgh Steelers",
+            "abbreviation": "PIT",
+            "shortDisplayName": "Steelers",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 2996,
+          "type": "team",
+          "uid": "s:20~l:28~t:30",
+          "guid": "ca6fb778-cbf6-d9a3-3e93-01230335fcab",
+          "description": "Jacksonville Jaguars",
+          "sportId": 28,
+          "teamId": 30,
+          "team": {
+            "id": 30,
+            "description": "Jacksonville Jaguars",
+            "abbreviation": "JAX",
+            "shortDisplayName": "Jaguars",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/jax/jacksonville-jaguars"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 2432,
+          "type": "team",
+          "uid": "s:20~l:28~t:7",
+          "guid": "51042145-e3c1-0694-ae0d-f720342ff8fc",
+          "description": "Denver Broncos",
+          "sportId": 28,
+          "teamId": 7,
+          "team": {
+            "id": 7,
+            "description": "Denver Broncos",
+            "abbreviation": "DEN",
+            "shortDisplayName": "Broncos",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/den/denver-broncos"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 1861,
+          "type": "team",
+          "uid": "s:20~l:28~t:9",
+          "guid": "06cd3bcf-7a86-53d4-28e7-aa049dd36261",
+          "description": "Green Bay Packers",
+          "sportId": 28,
+          "teamId": 9,
+          "team": {
+            "id": 9,
+            "description": "Green Bay Packers",
+            "abbreviation": "GB",
+            "shortDisplayName": "Packers",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/gb/green-bay-packers"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 694302,
+          "type": "contributor",
+          "guid": "89eed48f-9a22-3c0c-8dee-e558b09d16b0",
+          "description": "Pamela Maldonado",
+          "slug": "pamela-maldonado",
+          "contributor": {
+            "id": 4039,
+            "description": "Pamela Maldonado"
+          }
+        }
+      ],
+      "links": {
+        "api": {
+          "self": {
+            "href": "https://content.core.api.espn.com/v1/sports/news/50133043"
+          }
+        },
+        "app": {
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showStory?uid=50133043"
+          }
+        },
+        "mobile": {
+          "href": "http://m.espn.go.com/nfl/story?storyId=50133043"
+        },
+        "web": {
+          "href": "https://www.espn.com/nfl/story/_/id/50133043/week-5-predictions-upsets-fantasy-sleepers-stats-2026"
+        }
+      }
+    },
+    {
+      "id": 50142254,
+      "headline": "Jeremiyah Love 'trending well' to play despite ankle reinjury",
+      "description": "Cardinals rookie running back Jeremiyah Love aggravated his ankle injury last week against the Giants. He was limited in practice this week but is trending to play against the Lions.",
+      "published": "2026-10-09T19:50:08Z",
+      "lastModified": "2026-10-09T19:50:08Z",
+      "categories": [
+        {
+          "id": 605430,
+          "type": "athlete",
+          "uid": "s:20~l:28~a:4870808",
+          "guid": "56491a70-2fa6-3f66-9731-4167ecbeb252",
+          "description": "Jeremiyah Love",
+          "sportId": 28,
+          "athleteId": 4870808,
+          "athlete": {
+            "id": 4870808,
+            "description": "Jeremiyah Love",
+            "links": {
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/nfl/player/_/id/4870808/jeremiyah-love"
+                }
+              },
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/nfl/player/_/id/4870808/jeremiyah-love"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 1583,
+          "type": "team",
+          "uid": "s:20~l:28~t:22",
+          "guid": "8fc7b962-95e1-3cb8-6a7d-b499de9ad546",
+          "description": "Arizona Cardinals",
+          "sportId": 28,
+          "teamId": 22,
+          "team": {
+            "id": 22,
+            "description": "Arizona Cardinals",
+            "abbreviation": "ARI",
+            "shortDisplayName": "Cardinals",
+            "links": {
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+                }
+              },
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 9572,
+          "type": "league",
+          "uid": "s:20~l:28",
+          "guid": "ad4c3bd2-ddb6-3f8c-8abf-744855a08fa4",
+          "description": "NFL",
+          "sportId": 28,
+          "leagueId": 28,
+          "league": {
+            "id": 28,
+            "description": "NFL",
+            "abbreviation": "NFL",
+            "links": {
+              "mobile": {
+                "leagues": {
+                  "href": "https://www.espn.com/nfl/"
+                }
+              },
+              "web": {
+                "leagues": {
+                  "href": "https://www.espn.com/nfl/"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 409224,
+          "type": "topic",
+          "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+          "description": "news",
+          "sportId": 0,
+          "topicId": 781
+        },
+        {
+          "id": 696416,
+          "type": "contributor",
+          "guid": "ff2bd78b-f473-3bf6-bd0e-12c35dabe606",
+          "description": "Josh Weinfuss",
+          "slug": "josh-weinfuss",
+          "contributor": {
+            "id": 2330,
+            "description": "Josh Weinfuss"
+          }
+        }
+      ],
+      "links": {
+        "api": {
+          "self": {
+            "href": "https://content.core.api.espn.com/v1/sports/news/50142254"
+          }
+        },
+        "app": {
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showStory?uid=50142254"
+          }
+        },
+        "mobile": {
+          "href": "http://m.espn.go.com/nfl/story?storyId=50142254"
+        },
+        "web": {
+          "href": "https://www.espn.com/nfl/story/_/id/50142254/jeremiyah-love-trending-well-play-ankle-reinjury"
+        }
+      }
+    }
+  ],
+  "_fixture_metadata": {
+    "origin": "actual ESPN HTTPS response, fields redacted; not a synthetic sample",
+    "key": "news",
+    "capturedAt": "2026-10-11T06:16:53.354302+00:00",
+    "redactions": "Removed bios/media and unrelated news; preserved source scalar fields and category entity IDs unchanged."
+  }
+}
